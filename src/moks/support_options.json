@@ -1,0 +1,689 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Sobre PAGO46",
+      "hrefoption": "/sobre",
+      "imageIcon": "Sobre",
+      "childs": [
+        {
+          "title": "Primeros pasos, registro e información para comenzar a utilizar PAGO46",
+          "hrefoption": "/sobre/primeros-pasos"
+        },{
+          "title": "¿Que es PAGO46?",
+          "hrefoption": "/sobre/que-es-pago46"
+        },
+        {
+          "title": "¿Como funciona PAGO46?",
+          "hrefoption": "/sobre/como-funciona-pago46"
+        },
+        {
+          "title": "Donde está disponible PAGO46?",
+          "hrefoption": "/sobre/donde-esta-disponible-pago46"
+        },
+        {
+          "title": "Términos y Condiciones",
+          "hrefoption": "/sobre/terminos-y-condiciones"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Recarga de saldo",
+      "hrefoption": "/recarga",
+      "imageIcon": "Recarga",
+      "childs": [
+        {
+          "country": "Argentina",
+          "content": [
+            {
+              "title": ",¿Cómo hago una transferencia a PAGO46?",
+              "hrefoption": "/recarga/como-transferencia"
+            },
+            {
+              "title": "¿Cuánto tiempo debo esperar para que mi recarga se haga efectiva?",
+              "hrefoption": "/recarga/cuanto-tiempo-recarga"
+            },
+            {
+              "title": "Tengo un problema con mi carga de PAGO46",
+              "hrefoption": "/recarga/problema-carga"
+            },
+            {
+              "title": "Quiero la devolución de mi dinero",
+              "hrefoption": "/recarga/devolucion"
+            }
+          ]
+        },
+        {
+          "country": "Chile",
+          "content": [
+            {
+              "title": ",¿Cómo hago una transferencia para cargar mi App de PAGO46?",
+              "hrefoption": "/recarga/como-transferencia"
+            },
+            {
+              "title": "¿Cuánto tiempo debo esperar para que mi recarga se haga efectiva?",
+              "hrefoption": "/recarga/cuanto-tiempo-recarga"
+            },
+            {
+              "title": "¿Cómo cargo mi App de Pago 46 utilizando Khipu?",
+              "hrefoption": "/recarga/como-cargar-khipu"
+            },
+            {
+              "title": "Tengo un problema con mi carga de PAGO46",
+              "hrefoption": "/recarga/problema-carga"
+            },
+            {
+              "title": "Quiero la devolución de mi dinero",
+              "hrefoption": "/recarga/devolucion"
+            }
+          ]
+        },
+        {
+          "country": "Mexico",
+          "content": [
+            {
+              "title": ",¿Cómo hago una transferencia a PAGO46?",
+              "hrefoption": "/recarga/como-transferencia"
+            },
+            {
+              "title": "¿Cuánto tiempo debo esperar para que mi recarga se haga efectiva?",
+              "hrefoption": "/recarga/cuanto-tiempo-recarga"
+            },
+            {
+              "title": "Tengo un problema con mi carga de PAGO46",
+              "hrefoption": "/recarga/problema-carga"
+            },
+            {
+              "title": "Quiero la devolución de mi dinero",
+              "hrefoption": "/recarga/devolucion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pagos",
+      "hrefoption": "/pagos",
+      "imageIcon": "Pagos",
+      "childs": [
+        {
+          "country": "Argentina",
+          "content": [
+            {
+              "title": "¿Que puedo hacer hacer si realicé un pago y aun no descontaron mi deuda?",
+              "hrefoption": "/pagos/que-hacer-pago"
+            },
+            {
+              "title": "Encuentra aquí toda la información necesaria para pagar tu deuda",
+              "hrefoption": "/pagos/info-pagar-deuda"
+            },
+            {
+              "title": "Paga tu deuda de Uber en estos simples pasos",
+              "hrefoption": "/pagos/pagar-uber"
+            },
+            {
+              "title": "Auto pagar tu deuda de Uber nunca fue tan simple",
+              "hrefoption": "/pagos/autopagar-uber"
+            }
+          ]
+        },
+        {
+          "country": "Chile",
+          "content": [
+            {
+              "title": "Encuentra aquí toda la información necesaria para pagar tu deuda",
+              "hrefoption": "/pagos/info-pagar-deuda"
+            },
+            {
+              "title": "¿Que puedo hacer hacer si realicé un pago y aun no descontaron mi deuda?",
+              "hrefoption": "/pagos/que-hacer-pago"
+            }
+          ]
+        },
+        {
+          "country": "Mexico",
+          "content": [
+            {
+              "title": "Encuentra aquí toda la información necesaria para pagar tu deuda",
+              "hrefoption": "/pagos/info-pagar-deuda"
+            },
+            {
+              "title": "¿Que puedo hacer hacer si realicé un pago y aun no descontaron mi deuda?",
+              "hrefoption": "/pagos/que-hacer-pago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Socio46",
+      "hrefoption": "/socio46",
+      "imageIcon": "Socio",
+      "childs": [
+        {
+          "country": "Argentina",
+          "content": [
+            {
+              "title": "¿Cómo comienzo a ganar dinero con el app de PAGO46?",
+              "hrefoption": "/socio46/ganar-dinero"
+            },
+            {
+              "title": "¿Donde veo los productos y servicios que puedo ofrecer?",
+              "hrefoption": "/socio46/mis-ofertas"
+            },
+            {
+              "title": "¿Que diferencia hay entre Socio46 Delivery y Socio46 fijo?",
+              "hrefoption": "/socio46/diferencias-socios"
+            },
+            {
+              "title": "¿Cómo retiro mis comisiones y cuáles son?",
+              "hrefoption": "/socio46/mis-comisiones"
+            },
+            {
+              "title": "¿Donde puedo ver las transacciones y movimientos realizados?",
+              "hrefoption": "/socio46/transacciones-y-movimientos"
+            },
+            {
+              "title": "¿Cómo hago para aparecer en el mapa y empezar a ganar dinero?",
+              "hrefoption": "/socio46/como-activar-mapa"
+            },
+            {
+              "title": "Facturación",
+              "hrefoption": "/socio46/facturacion"
+            },
+            {
+              "title": "¿Como doy de baja mi cuenta de Socio46?",
+              "hrefoption": "/socio46/dar-de-baja"
+            }
+          ]
+        },
+        {
+          "country": "Chile",
+          "content": [
+            {
+              "title": "¿Que diferencia hay entre Socio46 Delivery y Socio46 fijo?",
+              "hrefoption": "/socio46/diferencias-socios"
+            },
+            {
+              "title": "¿Como retiro mis comisiones y cuáles son?",
+              "hrefoption": "/socio46/mis-comisiones"
+            },
+            {
+              "title": "¿Donde puedo ver las transacciones y movimientos realizados?",
+              "hrefoption": "/socio46/transacciones-y-movimientos"
+            },
+            {
+              "title": "¿Cómo hago para aparecer en el mapa y empezar a ganar dinero?",
+              "hrefoption": "/socio46/como-activar-mapa"
+            },
+            {
+              "title": "¿Como doy de baja mi cuenta de Socio46?",
+              "hrefoption": "/socio46/dar-de-baja"
+            }
+          ]
+        },
+        {
+          "country": "Mexico",
+          "content": [
+            {
+              "title": "¿Cómo comienzo a ganar dinero con el app de PAGO46?",
+              "hrefoption": "/socio46/ganar-dinero"
+            },
+            {
+              "title": "¿Donde veo los productos y servicios que puedo ofrecer?",
+              "hrefoption": "/socio46/mis-ofertas"
+            },
+            {
+              "title": "¿Que diferencia hay entre Socio46 Delivery y Socio46 fijo?",
+              "hrefoption": "/socio46/diferencias-socios"
+            },
+            {
+              "title": "¿Cómo retiro mis comisiones y cuáles son?",
+              "hrefoption": "/socio46/mis-comisiones"
+            },
+            {
+              "title": "¿Donde puedo ver las transacciones y movimientos realizados?",
+              "hrefoption": "/socio46/transacciones-y-movimientos"
+            },
+            {
+              "title": "¿Como doy de baja mi cuenta de Socio46?",
+              "hrefoption": "/socio46/dar-de-baja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tienda",
+      "hrefoption": "/tienda",
+      "imageIcon": "Tienda",
+      "childs": [
+        {
+          "country": "Argentina",
+          "content": [
+            {
+              "title": "Movistar - Telefónica Argentina",
+              "hrefoption": "/tienda/movistar"
+            },
+            {
+              "title": "Gift cards y juegos",
+              "hrefoption": "/tienda/gifcards"
+            },
+            {
+              "title": "Tarjeta SUBE",
+              "hrefoption": "/tienda/sube"
+            },
+            {
+              "title": "Recargas prepagas de Celulares",
+              "hrefoption": "/tienda/recarga-cel"
+            }
+          ]
+        },
+        {
+          "country": "Chile",
+          "content": [
+            {
+              "title": "Netflix",
+              "hrefoption": "/tienda/netflix"
+            },
+            {
+              "title": "Recargas Prepago",
+              "hrefoption": "/tienda/recarga-cel"
+            },
+            {
+              "title": "Gift Cards Consolas y VideoJuegos",
+              "hrefoption": "/tienda/gifcards"
+            },
+            {
+              "title": "Pago de Cuentas y Productos Movistar",
+              "hrefoption": "/tienda/movistar"
+            },
+            {
+              "title": "Eventos: ECOPASS",
+              "hrefoption": "/tienda/ecopass"
+            },
+            {
+              "title": "Viajes: Pasajes de Bus",
+              "hrefoption": "/tienda/bus"
+            }
+          ]
+        },
+        {
+          "country": "Mexico",
+          "content": [
+            {
+              "title": "Paga Aquí",
+              "hrefoption": "/tienda/paga-aqui"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "information": [
+    {
+      "country" : "General",
+      "content" : [
+        {
+          "id": 99,
+          "title": "Primeros pasos, registro e información para comenzar a utilizar PAGO46",
+          "info": "¡Bienvenido a PAGO46!\nSeguramente quieres ser Socio46 o saber como seguir luego de registrarte. Tranquilo, aquí te lo contamos todo...\n\nPaso a paso para ser Socio46\n\uD83D\uDCF1 Descarga a tu celular la app de PAGO46 \n\n<a href=\"https://apps.apple.com/cl/app/pago46/id1372503177\" rel=\"noopener noreferrer\" target=\"_blank\">App Store</a><a href=\"https://play.google.com/store/apps/details?id=com.fortysixdegrees.storeagent&hl=es\" rel=\"noopener noreferrer\" target=\"_blank\">Google Play</a>\n\n✅  Completa el formulario de Registro. \n\n⌛️ Aguarda a que tus datos sean verificados. Si ingresas a tu app verás esta imagen, esto puede demorar hasta 24 horas. \n\n❗️ Revisa tu correo, si hemos tenido problemas con tus datos o imagen de documento, estaremos poniéndonos en contacto.\uD83E\uDD14 ¿Pasaron más de 24 horas? Indícanos aquí tu correo.\n\uD83D\uDCE9  Verifica el correo con el que te registraste a PAGO46, te llegará un correo para que puedas hacerlo. \n\n\uD83D\uDE31 ¿No te llegó el correo de Registro? Indícanos tu correo.\n\uD83C\uDF89 Si ya seguiste todos estos pasos estás listo para hacer tu primera recarga y comenzar a ganar dineo con PAGO46. Aquí te contamos todo",
+          "hrefoption": "/sobre/primeros-pasos",
+          "video1": "https://www.youtube.com/embed/c8sx5LUDkS0"
+
+        },
+        {
+          "id": 0,
+          "title": "¿Que es PAGO46?",
+          "info": "PAGO46 es una plataforma de pagos en efectivo para compras on line, sin necesidad de tener tarjeta de crédito o cuenta bancaria.\n\n Formamos una red colaborativa entre Socios46, Comercios y Consumidores, donde cada uno de nuestros participantes sale beneficiado.\n\nLos Consumidores pueden acceder a productos digitales pagando en efectivo a un Socio46, quien recibe un ingreso adicional por recibir ese pago.\n\nLos Socios46 simplemente con su celular y nuestra APP están siempre disponibles, en cualquier momento y lugar.",
+          "hrefoption": "/sobre/que-es-pago46"
+        },
+        {
+          "id": 1,
+          "title": "¿Como funciona PAGO46?",
+          "info": "Compra Online\nGenera un código QR con PAGO46\n\nAl elegir PAGO46 como método de pago, se generará un código QR y se abrirá un mapa indicando el SOCIO46 fijo mas cercano a él, o podrá elegir que un SOCIO46 se acerque donde esté a cobrarle en efectivo.\n\n\nTransacción offline\nPaga en efectivo con el SOCIO46 elegido.\n\nCuando el SOCIO46 escanee el código QR del consumidor, se realiza el pago en efectivo.\n\n¡Listo!\nRecibe tu comprobante.\n\nAl finalizar la transacción ambos recibirán un comprobante por correo y listo.",
+          "hrefoption": "/sobre/como-funciona-pago46",
+          "img1": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen1-v2.jpg",
+          "img2": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen2-v2.jpg",
+          "img3": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen3-v2.jpg"
+        },
+        {
+          "id": 2,
+          "title": "¿Donde está disponible PAGO46?",
+          "info": "Desde PAGO46 estamos trabajando siempre para estar en nuevos lugares y brindar nuevas oportunidades a todos aquellos que deseen ganar dinero sólo con su Celular.\n\nPor el momento estamos operando en Chile y Argentina, muy próximos a anunciar nuevos paises.",
+          "hrefoption": "/sobre/donde-esta-disponible-pago46"
+        },
+        {
+          "id": 3,
+          "title": "Términos y Condiciones",
+          "info": "Siempre que tengas una duda sobre nuestros términos y condiciones puedes <a href=\"https://pago46.com/terminos-y-condiciones/\" rel=\"noopener noreferrer\" target=\"_blank\">consultar este link</a>\n\nEs muy importante que los leas para estar siempre informado sobre que si y que no se puede hacer con la app de PAGO46.",
+          "hrefoption": "/sobre/terminos-y-condiciones"
+        }
+      ]
+    },{
+      "country" : "Argentina",
+      "content" : [
+        {
+          "id": 4,
+          "title": "¿Cómo hago una transferencia a PAGO46?",
+          "info": "Cargar tu billetera de PAGO46 con una transferencia bancaria es muy fácil, solo debes:\n\n➡️  Ingresar a tu App de PAGO46 e ir a la sección \"Billetera\".\n\n➡️  Tocar en \"Cargar Crédito\".\n\n➡️  Veras los pasos que debes seguir para realizar la transferencia.\n\n➡️  Ingresar el Monto Exacto a transferir (ejemplo:$1.000 pesos).\n\n➡️  Seleccionar la opción \"Transferencia Bancaria\".\n\n➡️  Realizar la transferencia a la cuenta presentada y tocar en \"Generar Carga de Saldo\".\n\n Recuerda siempre crear el Ticket de carga antes de realizar la transferencia. Esta recarga puede demorar hasta 8 horas para verse en tu billetera y debe cumplir con lo siguiente:\n\n• El monto transferido sea igual al ingresado en el Ticket de carga.\n• La transferencia debe ser realizada antes de las 20:00 horas, transferencias realizadas luego de este horario serán acreditadas el día siguiente.\n• El DNI del propietario de la cuenta bancaria debe coincidir con el DNI registrado en tu App de PAGO46.\n\nTransferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando este formulario",
+          "hrefoption": "/recarga/como-transferencia"
+        },
+        {
+          "id": 5,
+          "title": "¿Cuánto tiempo debo esperar para que mi recarga se haga efectiva?",
+          "info": "¿Realizaste una transferencia bancaria desde una cuenta propia? \nRecuerda siempre crear el Ticket de carga antes de realizar la transferencia. Esta recarga puede demorar hasta 8 horas para verse en tu billetera y debe cumplir con lo siguiente:\n\n• El DNI del propietario de la cuenta bancaria debe coincidir con el DNI registrado en tu App de PAGO46.\n• El monto transferido sea igual al ingresado en el Ticket de carga.\n• La transferencia debe ser realizada antes de las 20:00 horas, transferencias realizadas luego de este horario serán acreditadas el día siguiente.\n\nTransferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando este formulario.\n\n \n\n \n\n ¿Realizaste una transferencia desde una cuenta NO propia?\nRecuerde que para que su transferencia bancaria se haga efectiva, el DNI de la cuenta depositante debe ser igual al DNI afiliado a su cuenta de PAGO46.\n\nTransferencias realizadas por un tercero pueden tardar hasta 72 horas en verse reflejada en su aplicación luego de llenado el siguiente formulario.\n\nTransferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando este formulario.",
+          "hrefoption": "/recarga/cuanto-tiempo-recarga"
+        },
+        {
+          "id": 6,
+          "title": "Tengo un problema con mi carga de PAGO46",
+          "info" : "¿Realizaste una transferencia bancaria desde una cuenta propia?\n \n\nSi seguiste todos los pasos de como <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">cargar tu billetera de PAGO46</a> correctamente, <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">há transcurrido el tiempo estimado</a> y aún no ves tu carga en tu App de PAGO46. Por favor llena el siguiente formulario para realizar tu acreditación de forma manual\n\n \n\n \n\n¿Realizaste una transferencia bancaria desde UALA, Mercado Pago o método DEBIN?\n \n\nTransferencias realizadas por los métodos mencionados no son soportadas por sistema, por favor llene el siguiente formulario para hacer devolución de su dinero.\n\n<a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">¿Cómo hago una transferencia a PAGO46?</a> \n\n \n\n¿Realizaste una transferencia desde una cuenta NO propia?\nRecuerde que para que su transferencia bancaria se haga efectiva automáticamente en su App de PAGO46 debe seguir los <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">pasos de carga correctamente</a>\n\nPara cargar una transferencia desde una cuenta NO propia, debe llenar el siguiente formulario.\n\nCargas desde cuentas NO propias pueden tardar hasta 72 horas en verse reflejadas en su aplicación de PAGO46.\n\nSi prefiere pedir la devolución de su dinero, haz click aquí",
+          "hrefoption": "/recarga/problema-carga"
+        },
+        {
+          "id": 7,
+          "title": "Quiero la devolución de mi dinero",
+          "info" : "Lamentamos que hayas tenido una mala experiencia con PAGO46,\n\nPara realizar la devolución de su dinero debe llenar el siguiente Formulario de devolución\n\nRecuerda que la devolución puede demorar hasta 10 días hábiles en realizarse.\n\n",
+          "hrefoption": "/recarga/devolucion"
+        },
+        {
+          "id": 17,
+          "title": "Encuentra aquí toda la información necesaria para pagar tu deuda",
+          "info": "Aquí te dejamos instructivos paso a paso de como pagar tu deuda según la App con la que trabajes.\nRappi➡️  <a href=\"https://pago46.com/como-pago-mi-deuda-de-rappi/\" rel=\"noopener noreferrer\" target=\"_blank\">Como Pagar mi deuda de Rappi</a>\n\n➡️<a href=\"https://pago46.com/auto-paga-tu-deuda-de-rappi/\" rel=\"noopener noreferrer\" target=\"_blank\">Cómo Auto Pagar mi deuda de Rappi</a>\n\n➡️ <a href=\"https://pago46.com/compra-tus-prendas-y-accesorios-de-rappi-con-pago46/\" rel=\"noopener noreferrer\" target=\"_blank\">Cómo comprar indumentaria de Rappi</a>\n\nGlovo➡️ <a href=\"https://pago46.com/como-hacer-para-balancear-tu-saldo-con-pago46/\" rel=\"noopener noreferrer\" target=\"_blank\">Como pago mi deuda de Glovo</a>\n\n➡️ <a href=\"https://pago46.com/auto-pagar-tu-deuda-de-glovo-nunca-fue-tan-facil/\" rel=\"noopener noreferrer\" target=\"_blank\">Como Auto Pagar mi deuda de Glovo</a>\n\nUber➡️ <a href=\"https://soporte.pago46.com/hc/es/articles/360044273571\" rel=\"noopener noreferrer\" target=\"_blank\">Como pago mi deuda de Uber</a>\n\n➡️ <a href=\"https://soporte.pago46.com/hc/es/articles/360044273551\" rel=\"noopener noreferrer\" target=\"_blank\">Como Auto Pagar mi deuda de Uber</a>\n\n¿No encuentras donde realizar el pago?\n\uD83C\uDF0E Encuentra en <a href=\"https://www.google.com/maps/d/viewer?ll=-35.32184388854654,-59.74867747952695&z=8&mid=1eWeVQmvWN5Nhc0upmAIXAdejkrJicdtf\" rel=\"noopener noreferrer\" target=\"_blank\">este Mapa</a> el Socio46 más cercano.",
+          "hrefoption": "/pagos/info-pagar-deuda"
+        },
+        {
+          "id": 18,
+          "title": "¿Que puedo hacer hacer si realicé un pago y aun no descontaron mi deuda?",
+          "info": "Si ya realizaste el pago de tu deuda y aún no lo ves reflejado, no te preocupes, aquí te decimos todo lo que necesitas saber para que tu deuda sea conciliada.\n\nLo primero que necesitas sabes es que, según la empresa para la que trabajes podría haber mas o menos demora.\n\n✅  Rappi demora unos pocos minutos, máximo 1 hora.\n\n✅  Glovo demora entre 2 y 8 horas \n\n✅. Uber demora hasta 24 horas.\n\n¿Que debo hacer si ya paso ese tiempo y aún veo la deuda?\n\nSi pagaste en Pago fácil o Rapi pago:  Envíanos el comprobante de pago y el correo con el que realizaste la generación del Código QR (el correo donde te llega el Código).\n\nSi pagaste con un Socio46 o realizaste Auto Pago: Envíanos el correo con el que realizaste la generación del Código Qr o el correo de Socio46 con el que hiciste el auto pago. Si tienes el correo de transacción Exitosa también adjuntarlo para poder corroborar aún mas rápido tu pago.\n\nAquí te dejamos el link al formulario para que cargues tu reclamo",
+          "hrefoption": "/pagos/que-hacer-pago"
+        },
+        {
+          "id": 19,
+          "title": "Paga tu deuda de Uber en estos simples pasos",
+          "info": "Pagar tu deuda nunca fue tan simple. Solo debes seguir estos pasos.\n\nHace click en el botón “Pagá con PAGO46” de la comunicación que recibiste informándote el saldo de tu deuda y el monto a pagar esta semana.\nEn el siguiente paso, ya estarás en la plataforma de PAGO46,\nIngresá los datos de tu ubicación o permite ver tu ubicación actual y presiona “continuar“\nElige el tipo de SOCIO46 con el cual quieres realizar el pago\nGenera el código QR y acércate al Punto de PAGO46 más cercano. Si pagas con un Socio46, sólo necesitas el código QR. <a href=\"https://www.google.com/maps/d/viewer?ll=-35.32184388854654%2C-59.74867747952695&z=8&mid=1eWeVQmvWN5Nhc0upmAIXAdejkrJicdtf\" rel=\"noopener noreferrer\" target=\"_blank\">Aquí tienes un Mapa</a> para encontrar un Socio46 cercano a tu ubicación.\nSi es un Paga Fácil o Rapi pago, solo sigue las instrucciones debajo del código QR.\n¡Listo, ya has pagado tu deuda de Uber!\n\n¿Aún tienes dudas? Mira este video de un minuto.",
+          "hrefoption": "/pagos/pagar-uber",
+          "video1": "https://www.youtube.com/embed/wISEroWtbSQ"
+        },
+        {
+          "id": 20,
+          "title": "Auto pagar tu deuda de Uber nunca fue tan simple",
+          "info": "Para poder hacer un auto pago, recuerda que debes previamente:\n\n\uD83D\uDC64 Ser Socio46.\n\n\uD83D\uDCB5 Tener tu app con saldo.\n\nTe dejamos aquí una guia por si no sabes como hacerlo. ➡️  <a href=\"https://a3g2b2.emailsp.com/frontend/LandingPage.aspx?idList=2&idLP=4&guid=85cf2362-4b8d-4f40-b0ec-d8812f97e20b\" rel=\"noopener noreferrer\" target=\"_blank\">Sé un Socio46</a>\n\nAquí contamos paso a paso todo lo que necesitas para pagar tu deuda de Uber en cualquier momento y lugar.\n\nHace click en el botón “Pagá con PAGO46” de la comunicación que recibiste informándote el saldo de tu deuda y el monto a pagar esta semana.\nEn el siguiente paso, ya estarás en la plataforma de PAGO46. Ingresa tu correo de Socio46.\nIngresa tu clave y activa la opción “Realizar este pago con mi billetera de Agente de PAGO46”\nAl presionar Pagar, una notificación llegará a tu teléfono automáticamente.\nTan solo haciendo click en la misma te redireccionará a tu app de PAGO46 para aceptar el pago.\n¡Listo, ya has pagado tu deuda de Uber!\n¿Aún tienes dudas? Mira este video de un minuto.",
+          "hrefoption": "/pagos/autopagar-uber",
+          "video1": "https://www.youtube.com/embed/v-QCHxc13Ng"
+        },
+        {
+          "id": 27,
+          "title": "¿Cómo comienzo a ganar dinero con el app de PAGO46?",
+          "info": "Comenzar a ganar dinero con PAGO46, es muy simple. Primero asegurate de: \n\nEstar registrado como Socio46.\nTener tu cuenta activa correctamente.\nTener un CUIT/CUL válido\nCargar la constancia de Monotributo o Constancia de inscripción al régimen general dentro de los  primeros 30 días.\nLo siguiente es Recargar tu cuenta de PAGO46. <a href=\"https://pago46.com/conoce-como-siempre-tener-saldo-en-tu-cuenta-de-pago46/\" rel=\"noopener noreferrer\" target=\"_blank\">Aquí te decimos como hacerlo</a> \n\nUna vez que tengas saldo en tu app, sólo debes estar online y podrás colectar efectivo de diferentes empresas.\n\nEs muy importante que revises nuestra sección “Tienda“ donde podrás ver todos los servicios y productos que puedes ofreces con tu app de PAGO46.\n\n¡Ten siempre tu celular contigo, tu app con saldo, y gana dinero!",
+          "hrefoption": "/socio46/ganar-dinero"
+        },
+        {
+          "id": 28,
+          "title": "¿Donde veo los productos y servicios que puedo ofrecer?",
+          "info": "Los Productos y Servicios los puedes encontrar en nuestra Tienda, dentro de la App de PAGO46. \n\nDebe ingresar a la App de PAGO46 con su correo electrónico de registro y contraseña. \nSeleccione el icono “Tienda” que se encuentra en la parte inferior de la pantalla. \nPodrá visualizar los siguientes productos: \n\nRecarga prepaga a Claro, Movistar, Tuenti y Personal.\nRecarga SUBE. \nGiftCards para Consolas y VideoJuegos. \nRecuerda que puedes realizar colección de dinero en efectivo utilizando el lector de Códigos QR que se encuentra en la parte superior derecha  de todas las pantallas de la App, podrá recibir pagos de: \n\nRappi\nGlovo\nMovistar\nUBER\nTe sugerimos de todos modos que visites la <a href=\"/tienda\" rel=\"noopener noreferrer\">sección Tienda</a> para ver el detalle de cada uno.",
+          "hrefoption": "/socio46/mis-ofertas"
+        },
+        {
+          "id": 29,
+          "title": "¿Que diferencia hay entre Socio46 Delivery y Socio46 fijo?",
+          "info": "Todos los Socios46 pueden realizar todo tipo de transacciones, pero, cada tipo de Socio46 tiene ventajas.\n\nUn Socio46 fijo tiene una dirección donde las personas pueden acercarse para realizar transacciones. Las ventajas en este tipo de Socio46 son:\n\nPoder ofrecer más servicios sólo con tu celular, sin necesidad de otros elementos que muchas veces tienen costo extra.\nTener clientes recurrentes que sepan que servicios pueden ofrecer (como colección de deuda de Rappi, Uber, etc)\nOfrecer a sus clientes más servicios, como la venta de Gift cards y juegos\nObtener una mejor ganancias con recargas de tarjeta SUBE.\nLa principal diferencia entre un Socio46 fijo \uD83C\uDFE0 y uno Delivery \uD83D\uDEB2 es que el Socio46 Delivery no necesita tener una dirección fija y en algunos casos cobrará una comisión por acercarse a la ubicación del usuario.\n\nSer Socio46 te permite tener una tienda online en tu celular y llegar a todos en cualquier momento y lugar.\n\n¿Como cambio mi modo de usuario?\nDesde la sección Perfil \uD83D\uDC64 podrás ver los 2 modos de usuario y elegir el modo en que quieres aparecer.\n\nRecuerda que puedes cambiarlo las veces que quieras, incluso en el mismo día.",
+          "hrefoption": "/socio46/diferencias-socios"
+        },
+        {
+          "id": 30,
+          "title": "¿Cómo retiro mis comisiones y cuáles son?",
+          "info": "Con PAGO46 no debes esperar fechas de corte o pago, obtienes tu ganancia en el momento con cada transacción que realices.\n\nRecargas Prepago: Generan el 3% de comisión del monto recargado por cada Recarga.\nTarjeta SUBE: Generan el 3% de comisión del monto recargado.\nTodocodigos: Genera el 1% de comisión del monto de la Gift Card.\nMovistar: 3% de comisión sobre el monto recargado + $70 fee por delivery si es el caso. Sino solo el 3%\nRappi: Genera el 1% de comisión por cada monto que usted reciba.\nGlovo: Genera el 1% de comision por cada monto que usted reciba.\nUber: Genera el 1% de comision por cada monto que usted reciba.\n\nEjemplo: recibes $1000 de una recarga. Se te descontarán $970 de tu balance. La diferencia de los $30 que es tu ganancia la tienes en tu mano de inmediato.\uD83D\uDCB5",
+          "hrefoption": "/socio46/mis-comisiones"
+        },
+        {
+          "id": 31,
+          "title": "¿Donde puedo ver las transacciones y movimientos realizados?",
+          "info": "Ver todos los movimientos que realizaste como socio46 es muy importante por si tienes dudas sobre alguna recarga o transacción realizada.\n\nTambién va a servirte para facturar, así que presta atención a este artículo Para poder ver todos los movimientos que haz realizado como Socio46.\n\nPaso a Paso:\n\nIngresa a tu app de PAGO46\nDirígete al ícono Billetera\nHaz click en Movimientos.\nSi quieres ver todas tus transacciones lo ves desde el sector Ventas\nSi quiere ver todas sus recargas puede hacerlo desde el sector Cargas.\nOtra cosa que puedes ver es el detalle de tus ganancias.\n\nPara verlo, puedes realizar los mismos pasos, pero en lugar de hacer click en Movimientos, debe hacer click en “Ganancias“\n\nAllí podrás filtrar por mes, semana o una fecha personalizada. \n\nEs muy importante que puedas ver todas estas secciones, ya que te servirán para realizar la facturación a PAGO46.\n\nSi tienes cualquier duda sobre Facturación te invitamos a revisar toda la info en <a href=\"/socio46/facturacion\" rel=\"noopener noreferrer\">este link</a>",
+          "hrefoption": "/socio46/transacciones-y-movimientos"
+        },
+        {
+          "id": 32,
+          "title": "¿Cómo hago para aparecer en el mapa y empezar a ganar dinero?",
+          "info": "Para poder comenzar a ganar dinero debes aparecer en el mapa para que los interesados en realizar una transacción pueden encontrarte.\n\nPara eso Sólo debes estar conectado y haber hecho una recarga a tu app de PAGO46.\n\nSi quieres saber como tener siempre tu app cargada, haz click en el <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">siguiente link</a>",
+          "hrefoption": "/socio46/como-activar-mapa"
+        },
+        {
+          "id": 33,
+          "title": "Facturación",
+          "info": "A continuación te explicamos todo lo que tenes que hacer para subir tu constancia de opción de monotributista o constancia de registro del régimen general de impuestos. \n\n¡Tenés 30 días luego de realizar tu registro para presentar esta documentación!\n\nSi tenés dudas sobre el monotributo o aun no estas inscripto, te dejamos un paso a paso en cada link dependiendo de lo que necesites saber.\n\nSi todavía no estas registrado en AFIP hace <a href=\"https://pago46.com/pasos-necesarios-para-sacar-el-monotributo/\" rel=\"noopener noreferrer\" target=\"_blank\">Click aqui</a> \nSi no sabes como inscribirte al Monotributo, hace <a href=\"https://pago46.com/como-inscribirse-en-el-monotributo/\" rel=\"noopener noreferrer\" target=\"_blank\">Click Aquí</a>\nSi no sabes como dar de alta el punto de venta, hace <a href=\"https://pago46.com/como-habilito-el-punto-de-venta/\" rel=\"noopener noreferrer\" target=\"_blank\">Click Aquí</a>\nRegimen general de Impuestos\n\nSi estás inscripto al régimen general de impuestos, dirígete al <a href=\"https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do\" rel=\"noopener noreferrer\" target=\"_blank\">sitio de AFIP</a> e identificate con tu número de CUIT y descarga tu constancia de inscripción.\n\nSubí la misma dentro de los primeros 30 días de registrarte en PAGO46 para seguir utilizando nuestro servicio.\n\nYa soy monotributista\n\nSi ya eres monotributista, recuerda que debes agregar una de estas actividades para poder facturar:\n\n829100: Servicios de agencias de cobro y calificación crediticia.\n829900: Servicios empresariales n.c.p.\nSi no sabés como agregar esta actividad a tu monotributo, Hace <a href=\"https://pago46.com/pasos-necesarios-para-sacar-el-monotributo/\" rel=\"noopener noreferrer\" target=\"_blank\">Click Aquí</a>\n\nDatos de Facturación\n\nSi ya tienes todo listo y sólo te faltan nuestros datos para hacer la factura, te los dejamos a continuación:\n\nNombre de la empresa: PAGO46 SAS\nCUIT: 30716435845\nDirección: Av. Dorrego 2752, Piso 2, Oficina 201, CABA",
+          "hrefoption": "/socio46/facturacion"
+        },
+        {
+          "id": 34,
+          "title": "¿Como doy de baja mi cuenta de Socio46?",
+          "info": "Es una pena que quieras dejar de ser Socio46, pero si ya lo tienes decidido, te comentamos como hacer para darse de baja.\n\n1- Complete el formulario a continuación indicando :\n\nMotivo de baja:\nCorreo electrónico de Socio46:\n2- Si tiene saldo en su app, necesitaremos datos adicionales para poder hacerle la devolución:\n\nBanco:\nTipo de Cuenta:\nDNI:\nNúmero de la Cuenta:\nNombre del Titular:",
+          "hrefoption": "/socio46/dar-de-baja"
+        },
+        {
+          "id": 47,
+          "title": "Movistar - Telefónica Argentina",
+          "info": "Ingresando a <a href=\"https://ayuda.movistar.com.ar/pregunta/como-recargo-saldo.html\" rel=\"noopener noreferrer\" target=\"_blank\">este link</a> los usuarios de Movistar podrán pedir una recarga pre paga desde cualquier lugar.\n\nPara poder recibir una de estas transacciones debes estar conectado en modo Delivery y tener saldo en tu app de PAGO46.\n\nEstas transacciones tendrán un Delivery Fee de $70 + el 3% del monto de la recarga.\n\nPara realizarlas de manera exitosa:\n\n\uD83D\uDEB2 Dirígete a la ubicación del Usuario\n\uD83D\uDCF1 Seleccione la compañía telefónica.\n✍\uD83C\uDFFC Escribir correctamente el número de 9 dígitos a recargar.\n\uD83D\uDCB5 Indique el Monto a recargar.\n\uD83D\uDCE9 El cliente debe indicar su correo electrónico.\n\n✅ Luego ambos reciben un comprobante por la transacción.\n\n¡Y listo, ya tienes tu ganancia en tus manos!",
+          "hrefoption": "/tienda/movistar"
+        },
+        {
+          "id": 48,
+          "title": "Gift cards y juegos",
+          "info": "Desde la tienda de tu app de PAGO46 podrás vender Gift cards y Juegos  \uD83C\uDFAE  \uD83D\uDCF1\n\nTu comisión por esta transacción será: 1% del monto.\n\nSigue estos pasos para hacerlo de manera exitosa:\n\n1.- Seleccionar tipo Gift Card.\n\n2.- Seleccionar un producto de la lista. Recuerda consultar con el usuario la configuración de su consola para que puedas venderle la Gift card del país correcto.\n\n3.- Ingresar el correo electrónico del comprador.\n\n4.- Confirmar que el correo electrónico del comprador este bien escrito.\n\n5.- Al seleccionar Recargar y luego Aceptar la transacción, recibirás un mail de comprobante exitoso y el consumidor recibirá un mail con el código pin para ingresar a la cuenta de Gift Card adquirida.",
+          "hrefoption": "/tienda/gifcards"
+        },
+        {
+          "id": 49,
+          "title": "Tarjeta SUBE",
+          "info": "Desde la tienda de tu app de PAGO46 podrás cargar la Tarjeta SUBE.\uD83D\uDE8C\n\nTu comisión por esta transacción será: 3% del monto recargado.\n\nSigue estos pasos para hacerlo de manera exitosa:\n\n\nEscribir correctamente el número de la tarjeta que desea recargar.\nSeleccione el Monto a recargar.\nEl cliente debe indicar su correo electrónico. Luego ambos reciben un comprobante por la transacción.\nImportante: El saldo no se verá cargado hasta que la tarjeta no se apoye sobre una terminal de recarga.\nEn <a href=\"https://ayuda.movistar.com.ar/pregunta/como-recargo-saldo.html\" rel=\"noopener noreferrer\" target=\"_blank\">este link</a> puedes buscar tu terminal mas cercana",
+          "hrefoption": "/tienda/sube"
+        },
+        {
+          "id": 50,
+          "title": "Recargas prepagas de Celulares",
+          "info": "Mira el paso a paso para realizar una transacción desde la tienda de PAGO46 y recargar un celular pre pago de Claro, Movistar, Personal o Tuenti.\n\nComisión: 3% del monto recargado.\n\n\nPersonal, Movistar, Claro, Tuenti\nSeleccione la compañía telefónica.\nEscribir correctamente el número de 9 dígitos a recargar.\nIndique el Monto a recargar.\nEl cliente debe indicar su correo electrónico. Luego ambos reciben un comprobante por la transacción.",
+          "hrefoption": "/tienda/recarga-cel"
+        }
+      ]
+    },{
+      "country" : "Chile",
+      "content" : [
+        {
+          "id": 8,
+          "title": "¿Cómo hago una transferencia para cargar mi App de PAGO46?",
+          "info": "Cargar tu App de Pago46 con una transferencia bancaria es muy fácil sólo debes:\n\nIngresar a tu App de PAGO46 e ir a la sección 'Billetera'.\n\nTocar en 'Cargar Crédito'.\n\nVeras los pasos que debes seguir para realizar la transferencia.,\n\nIngresar el Monto Exacto a transferir (ejemplo:$1.000 pesos).,,,\n\nSeleccionar la opción 'Transferencia Bancaria'.,,\n\nRealizar la transferencia a la cuenta presentada y tocar en 'Generar Carga de Saldo'.,,\n\n\n\nRecuerda siempre crear el Ticket de carga antes de realizar la transferencia, las recargas pueden demorar hasta 8 horas para verse en tu App y debe cumplir con lo siguiente:,,,,\n\nEl monto transferido sea igual al colocado en el Ticket de carga.,,\n\nEl RUT del propietario de la cuenta bancaria debe coincidir con el RUT registrado en tu App de PAGO46.",
+          "hrefoption": "/recarga/como-transferencia"
+        },
+        {
+          "id": 9,
+          "title": "¿Cuánto tiempo debo esperar para que mi recarga se haga efectiva?",
+          "info" : "¿Realizaste una transferencia bancaria desde una cuenta propia? \nRecuerda siempre crear el Ticket de carga antes de realizar la transferencia. Esta recarga puede demorar hasta 8 horas para verse en tu billetera y debe cumplir con lo siguiente:\n\n• El RUT del propietario de la cuenta bancaria debe coincidir con el RUT registrado en tu App de PAGO46.\n• El monto transferido sea igual al ingresado en el Ticket de carga.\n\n\n \n\n \n\n ¿Realizaste una transferencia desde una cuenta NO propia?\nRecuerde que para que su transferencia bancaria se haga efectiva, el RUT de la cuenta depositante debe ser igual al RUT afiliado a su cuenta de PAGO46.\n\nTransferencias realizadas por un tercero pueden tardar hasta 72 horas en verse reflejada en su aplicación luego de llenado el siguiente formulario.",
+          "hrefoption": "/recarga/cuanto-tiempo-recarga"
+        },
+        {
+          "id": 10,
+          "title": "¿Cómo cargo mi App de Pago 46 utilizando Khipu?",
+          "info" : "Cargar tu billetera de PAGO46 con Khipu es muy fácil, solo debes:\n\n➡️ Ingresar a tu App de PAGO46 e ir a la sección \"Billetera\".\n\n➡️ Tocar en \"Cargar Crédito\".\n\n➡️ Ingresar el Monto Exacto a transferir (ejemplo:$1.000 pesos).\n\n➡️ Seleccionar la opción \"Khipu\".\n\n➡️ Iniciar tu sesión de Khipu y seguir los pasos presentados para cargar tu App de PAGO46.",
+          "hrefoption": "/recarga/como-cargar-khipu"
+        },
+        {
+          "id": 11,
+          "title": "Tengo un problema con mi carga de PAGO46",
+          "info" : "¿Realizaste una transferencia bancaria desde una cuenta propia?\n \n\nSi seguiste todos los pasos de como <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">cargar tu billetera de PAGO46</a> correctamente, <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">há transcurrido el tiempo estimado</a> y aún no ves tu carga en tu App de PAGO46. Por favor llena el siguiente formulario para realizar tu acreditación de forma manual\n\n \n\n \n\n¿Realizaste una transferencia desde una cuenta NO propia?\nRecuerde que para que su transferencia bancaria se haga efectiva automáticamente en su App de PAGO46 debe seguir <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">los pasos de carga correctamente</a>\n\nPara cargar una transferencia desde una cuenta NO propia, debe llenar el siguiente formulario.\n\nCargas desde cuentas NO propias pueden tardar hasta 72 horas en verse reflejadas en su aplicación de PAGO46.\n\nSi prefiere pedir la devolución de su dinero, haz click aquí",
+          "hrefoption": "/recarga/problema-carga"
+        },
+        {
+          "id": 12,
+          "title": "Quiero la devolución de mi dinero",
+          "info" : "Lamentamos que hayas tenido una mala experiencia con PAGO46.\n\nPara realizar la devolución de su dinero debe llenar el siguiente Formulario de devolución\n\nRecuerda que la devolución puede tardar hasta 10 días hábiles en realizarse.",
+          "hrefoption": "/recarga/devolucion"
+        },
+        {
+          "id": 21,
+          "title": "Encuentra aquí toda la información necesaria para pagar tu deuda",
+          "info": "Aquí te dejamos instructivos paso a paso de como pagar tu deuda según la empresa en la que trabajes.\nRappi\n➡️  <a href=\"https://pago46.com/como-pago-mi-deuda-de-rappi/\" rel=\"noopener noreferrer\" target=\"_blank\">Como Pagar mi deuda de Rappi</a>\n\n➡️. <a href=\"https://pago46.com/auto-paga-tu-deuda-de-rappi/\" rel=\"noopener noreferrer\" target=\"_blank\">Cómo Auto Pagar mi deuda de Rappi</a>\n\nPedidos Ya\n\n➡️  <a href=\"https://pago46.com/pagar-tu-deuda-de-pedidos-ya-nunca-fue-tan-facil/\" rel=\"noopener noreferrer\" target=\"_blank\">Cómo pagar tu deuda de Pedidos Ya</a>\n\n➡️. <a href=\"https://pago46.com/auto-paga-tu-deuda-de-pedidos-ya/\" rel=\"noopener noreferrer\" target=\"_blank\">Cómo Auto Pagar tu deuda de Pedidos Ya</a>\n\nBEAT\n\n➡️  <a href=\"https://pago46.com/pagar-tu-deuda-de-beat/\" rel=\"noopener noreferrer\" target=\"_blank\">Como pagar tu deuda de BEAT</a>\n\n¿No encuentras donde realizar el pago?\n\uD83C\uDF0E Encuentra en <a href=\"https://www.google.com/maps/d/viewer?ll=-35.32184388854654,-59.74867747952695&z=8&mid=1eWeVQmvWN5Nhc0upmAIXAdejkrJicdtf\" rel=\"noopener noreferrer\" target=\"_blank\">este Mapa</a> el Socio46 más cercano.",
+          "hrefoption": "/pagos/info-pagar-deuda"
+        },
+        {
+          "id": 22,
+          "title": "¿Que puedo hacer hacer si realicé un pago y aun no descontaron mi deuda?",
+          "info": "Si ya realizaste el pago de tu deuda y aún no lo ves reflejado, no te preocupes, aquí te decimos todo lo que necesitas saber para que tu deuda sea conciliada.\n\nLo primero que necesitas sabes es que, según la empresa para la que trabajes podría haber mas o menos demora.\n\n✅  Rappi demora unos pocos minutos, máximo 1 hora.\n\n✅  Pedidos Ya demora unos pocos minutos, máximo 1 hora.\n\n✅. BEAT demora hasta 8 horas. Importante: Corroborar que el pago se realizó con el RUT del conductor de BEAT. \n\n¿Que debo hacer si ya paso ese tiempo y aún veo la deuda?\n\nSi pagaste en Caja Vecina o Multi caja:  Envíanos el voucher de pago y el correo con el que realizaste la generación del Código QR ( el correo donde te llega el Código)\n\nSi pagaste con un Socio46 o realizaste Auto Pago: Envíanos el correo con el que realizaste la generación del Código Qr o el correo de Socio46 con el que hiciste el auto pago. Si tienes el correo de transacción Exitosa también adjuntarlo para poder corroborar aún mas rápido tu pago.\n\nAquí te dejamos el link al formulario para que cargues tu reclamo",
+          "hrefoption": "/pagos/que-hacer-pago"
+        },
+        {
+          "id": 35,
+          "title": "¿Que diferencia hay entre Socio46 Delivery y Socio46 fijo?",
+          "info": "Todos los Socios46 pueden realizar todo tipo de transacciones, pero, cada tipo de Socio46 tiene ventajas.\n\nUn Socio46 fijo tiene una dirección donde las personas pueden acercarse para realizar transacciones. Las ventajas en este tipo de Socio46 son:\n\nPoder ofrecer más servicios sólo con tu celular, sin necesidad de otros elementos que muchas veces tienen costo extra.\nTener clientes recurrentes que sepan que servicios pueden ofrecer (como colección de deuda de Rappi, Uber, etc)\nOfrecer a sus clientes más servicios, como la venta de Gift cards y juegos\nObtener una mejor ganancias con recargas de tarjeta SUBE.\nLa principal diferencia entre un Socio46 fijo \uD83C\uDFE0 y uno Delivery \uD83D\uDEB2 es que el Socio46 Delivery no necesita tener una dirección fija y en algunos casos cobrará una comisión por acercarse a la ubicación del usuario.\n\nSer Socio46 te permite tener una tienda online en tu celular y llegar a todos en cualquier momento y lugar.\n\n¿Como cambio mi modo de usuario?\nDesde la sección Perfil \uD83D\uDC64 podrás ver los 2 modos de usuario y elegir el modo en que quieres aparecer.\n\nRecuerda que puedes cambiarlo las veces que quieras, incluso en el mismo día.",
+          "hrefoption": "/socio46/diferencias-socios"
+        },
+        {
+          "id": 36,
+          "title": "¿Como retiro mis comisiones y cuáles son?",
+          "info": "La comisión la retira en efectivo en el momento de la transacción y recupera lo invertido.\n\n\nRecargas Prepago: Generan el 3% de comisión del monto recargado por cada recarga.\nNetflix Prepago: Genera el 5% de comisión del monto recargado.\nTodoCodigos: Genera $300 pesos o el 1% (lo que sea mayor) de la comisión.\nPago de Cuentas Movistar: Genera $300 pesos fijos de comisión.\nPasajes Bus: Genera $300 pesos fijos comisión.\nEventos EcoPass: Genera $300 pesos fijos de comisión.\nRappi: Genera el 1% de comisión del cada monto recibido.\nPedidos Ya: Genera el 1% de comisión del cada monto recibido.\nBeat: Genera el 1% de comisión del monto total recibido.\nMovistar: Genera $1.000 pesos de comisión si estás en estado delivery y $300 si estás en modo fijo\nVirgin Mobile: $1.000 pesos de comisión si estás en estado delivery y $300 si estás en modo fijo\nVTR: $1.000 pesos de comisión si estás en estado delivery y $300 si estás en modo fijo\n\nEjemplo: recibes $1000 de una recarga. Se te descontarán $970 de tu balance. La diferencia de los $30 que es tu ganancia la puedes separar de inmediato.",
+          "hrefoption": "/socio46/mis-comisiones"
+        },
+        {
+          "id": 37,
+          "title": "¿Donde puedo ver las transacciones y movimientos realizados?",
+          "info": "Ver todos los movimientos que realizaste como socio46 es muy importante por si tienes dudas sobre alguna recarga o transacción realizada.\n\nPara poder ver todos los movimientos que haz realizado como Socio46.\n\nPaso a Paso:\n\nIngresa a tu app de PAGO46\nDirígete al ícono Billetera\nHaz click en Movimientos.\nSi quieres ver todas tus transacciones lo ves desde el sector Ventas\nSi quiere ver todas sus recargas puede hacerlo desde el sector Topup\nOtra cosa que puedes ver es el detalle de tus ganancias.\n\nPara verlo, puedes realizar los mismos pasos, pero en lugar de hacer click en Movimientos, debes hacer click en “Ganancias“\n\nAllí podrás filtrar por mes, semana o una fecha personalizada. ",
+          "hrefoption": "/socio46/transacciones-y-movimientos"
+        },
+        {
+          "id": 38,
+          "title": "¿Cómo hago para aparecer en el mapa y empezar a ganar dinero?",
+          "info": "Para poder comenzar a ganar dinero debes aparecer en el mapa para que los interesados en realizar una transacción pueden encontrarte.\n\nPara eso Sólo debes estar conectado y haber hecho una recarga a tu app de PAGO46.\n\nSi quieres saber como tener siempre tu app cargada, haz click en el <a href=\"https://a3g2b2.emailsp.com/frontend/LandingPage.aspx?idList=2&idLP=7&guid=85cf2362-4b8d-4f40-b0ec-d8812f97e20b\" rel=\"noopener noreferrer\" target=\"_blank\">siguiente link</a>",
+          "hrefoption": "/socio46/como-activar-mapa"
+        },
+        {
+          "id": 39,
+          "title": "¿Como doy de baja mi cuenta de Socio46?",
+          "info": "Es una pena que quieras dejar de ser Socio46, pero si ya lo tienes decidido, te comentamos como hacer para darse de baja.\n\n1- Complete el formulario a continuación indicando :\n\nMotivo de baja:\nCorreo electrónico de Socio46:\n2- Si tiene saldo en su app, necesitaremos datos adicionales para poder hacerle la devolución:\n\nBanco:\nTipo de Cuenta:\nRUT:\nNúmero de la Cuenta:\nNombre del Titular:\nFORMULARIO \n\n\n3- Por último solo debe desinstalar la App de PAGO46 y listo con estos simples pasos su cuenta quedará desactivada.",
+          "hrefoption": "/socio46/dar-de-baja"
+        },
+        {
+          "id": 51,
+          "title": "Netflix",
+          "info": "Aquí te dejamos el paso a paso para realizar una transacción desde la tienda de PAGO46 y vender un Gift card de Netflix.\n\n Comisión: 5% del monto escogido. \n\nServicio Prepago.\n\nSeleccione el monto predeterminado de carga indicado en la pantalla. \nIngrese el correo electrónico del comprador. \nConfirmar que el correo electrónico del comprador esté bien escrito.  \nAl seleccionar Recargar y luego Aceptar la transacción, recibirá un correo de comprobante exitoso y el consumidor recibirá el correo con el código pin para ingresar a la cuenta de Netflix. \n¿Tienes problemas para canjear tu Gift card?\nCompletá este Formulario para que podamos ayudarte",
+          "hrefoption": "/tienda/netflix"
+        },
+        {
+          "id": 52,
+          "title": "Recargas Prepago",
+          "info": "Mira el paso a paso para realizar una transacción desde la tienda de PAGO46 y recargar un celular pre pago deEntel, Movistar, Claro, Wom, Vtr, Virgin, Simple.\n\nComisión: 3% del monto recargado. \n\nSeleccione el tipo de compañía telefónica. (Entel, Movistar, Claro, Wom, Vtr, Virgin, Simple.)\nSeleccione el tipo servicio a recargar. (Telefonia Movil, Telefonia Hogar, TV digital, Internet). \nEscribir correctamente el número de 9 dígitos a recargar. \nIndique el Monto a recargar. \nEl cliente debe indicar su correo electrónico. Luego ambos reciben un comprobante por la transacción.",
+          "hrefoption": "/tienda/recarga-cel"
+        },
+        {
+          "id": 53,
+          "title": "Gift Cards Consolas y VideoJuegos",
+          "info": "Desde la tienda de tu app de PAGO46 podrás vender Gift cards y Juegos  \uD83C\uDFAE  \uD83D\uDCF1\n\nTu comisión por esta transacción será de: $300 pesos o 1% (lo que sea mayor). .\n\nSigue estos pasos para hacerlo de manera exitosa:\n\nSeleccionar tipo Gift Card.\nSeleccionar un producto de la lista. \nIngresar el correo electrónico del comprador. \nConfirmar que el correo electrónico del comprador este bien escrito.  \nAl seleccionar Recargar y luego Aceptar la transacción, recibirás un mail de comprobante exitoso y el consumidor recibirá un mail con el código pin para ingresar a la cuenta de Gift Card adquirida.",
+          "hrefoption": "/tienda/gifcards"
+        },
+        {
+          "id": 54,
+          "title": "Pago de Cuentas y Productos Movistar",
+          "info": "Aquí te dejamos el paso a paso para realizar una transacciones de cuentas y productos Movistar.\n\nComisión: $300 pesos.\n\nPago de Cuentas: \n\nEl cliente debe indicar RUT o número de teléfono (móvil o fijo) asociado a la cuenta Movistar Hogar o Móvil.\nEl cliente debe indicar su correo electrónico. \nSe recibe el efectivo y se acepta la transacción y ambos reciben un comprobante.\nProductos Movistar:\n\nEl cliente recibe un número de producto a través de página web o directo en tiendas Movistar para pagar por un producto. (ej: Celular, audifonos, carcasas, etc).\n\nEl cliente debe indicar el número de Producto correctamente. \nDebe ser confirmado. \nEl cliente debe indicar su correo electrónico. \nLuego ambos reciben un comprobante por la transacción. \n",
+          "hrefoption": "/tienda/movistar"
+        },
+        {
+          "id": 55,
+          "title": "Eventos: ECOPASS",
+          "info": "Mira el paso a paso para realizar una transacción desde la tienda de PAGO46 y  comprar tickets a eventos con ECOPASS          \n\nComisión: $300 pesos. \n\nIndicar el evento de interés. \nSeleccionar “Reserva Tus Tickets”.  \nSeleccionar la cantidad de Tickets.\nSelecciona “Obten tu Ecoticket”. \nIngresar Rut del comprador. \nIngresar correo electrónico del Comprador. \nConfirmar el correo electrónico. \nIngresar fecha de nacimiento del Comprador. \nIngresar teléfono celular de 9 dígitos del Comprador. \nSeleccionar Pagar.\nLuego ambos reciben un comprobante por la transacción.",
+          "hrefoption": "/tienda/ecopass"
+        },
+        {
+          "id": 56,
+          "title": "Viajes: Pasajes de Bus",
+          "info": "Aquí te dejamos el paso a paso para realizar una transacción desde la tienda de PAGO46 y vender pasaje con Pasaja Bus\n\nComision: $300 pesos o el 1% (lo que sea mayor). \n\nIndicar ciudad de Origen. \nIndicar a dónde se dirige. \nSeleccionar Fecha de Ida o Ida y vuelta. \nSeleccionar servicio de preferencia por Horario y Precio. \nSeleccionar Asiento. Terminal de Partida y terminal de Llegada. \nPaso 2: Indicar datos del pasajero. \n\nIndicar País de origen. \nIndicar RUT o DNI.\nIndicar Número de documento.\nNombre del Pasajero. \nApellido del Pasajero. \nIndicar Correo electrónico. \nConfirmar el Correo electrónico. \nIndicar número móvil del pasajero. \nSeleccionar términos y condiciones. \nFinalizar la transacción. \n Luego ambos reciben un comprobante por la transacción.\n",
+          "hrefoption": "/tienda/bus"
+        }
+      ]
+    },{
+      "country" : "Mexico",
+      "content" : [
+        {
+          "id": 13,
+          "title": "¿Cómo hago una transferencia para cargar mi App de PAGO46?",
+          "info": "Cargar tu billetera de PAGO46 con una transferencia bancaria es muy fácil, solo debes:\n\n➡️  Ingresar a tu App de PAGO46 e ir a la sección \"Billetera\".\n\n➡️  Tocar en \"Cargar Crédito\".\n\n➡️  Veras los pasos que debes seguir para realizar la transferencia.\n\n➡️  Ingresar el Monto Exacto a transferir (ejemplo:$1.000 pesos).\n\n➡️  Seleccionar la opción \"Transferencia Bancaria\".\n\n➡️  Realizar la transferencia a la cuenta presentada y tocar en \"Generar Carga de Saldo\".\n\nRecuerda siempre crear el Ticket de carga antes de realizar la transferencia. Esta recarga puede demorar hasta 3 horas para verse en tu billetera desde el momento que la transferencia se ve en nuestra cuenta bancaria, dependerá del tipo de transferencia realizada ( SPEI, TEF ) y debe cumplir con lo siguiente:\n\n• El monto transferido sea igual al ingresado en el Ticket de carga.\n• El RFC del propietario de la cuenta bancaria debe coincidir con el RFC registrado en tu App de PAGO46.",
+          "hrefoption": "/recarga/como-transferencia"
+        },
+        {
+          "id": 14,
+          "title": "¿Cuánto tiempo debo esperar para que mi recarga se haga efectiva?",
+          "info": "¿Realizaste una transferencia bancaria desde una cuenta propia? \nRecuerda siempre crear el Ticket de carga antes de realizar la transferencia. Esta recarga puede demorar hasta 8 horas para verse en tu billetera desde el momento que la transferencia se ve en nuestra cuenta bancaria, dependerá del tipo de transferencia realizada ( SPEI, TEF )  y debe cumplir con lo siguiente:\n\n• El monto transferido sea igual al ingresado en el Ticket de carga.\n• La transferencia debe ser realizada antes de las 20:00 horas, transferencias realizadas luego de este horario serán acreditadas el día siguiente.\n• El RFC del propietario de la cuenta bancaria debe coincidir con el RFC registrado en tu App de PAGO46.\n\n \n\n \n\n \n\n ¿Realizaste una transferencia desde una cuenta NO propia?\nRecuerde que para que su transferencia bancaria se haga efectiva, el RFC de la cuenta depositante debe ser igual al RFC afiliado a su cuenta de PAGO46.\n\nTransferencias realizadas por un tercero pueden tardar hasta 72 horas en verse reflejada en su aplicación, a partir del momento que el dinero se vea reflejado en nuestra cuenta bancaria, tiempo dependerá del tipo de transferencia realizada ( SPEI, TEF ), luego de llenado el siguiente formulario.",
+          "hrefoption": "/recarga/cuanto-tiempo-recarga"
+        },
+        {
+          "id": 15,
+          "title": "Tengo un problema con mi carga de PAGO46",
+          "info" : "¿Realizaste una transferencia bancaria desde una cuenta propia?\n \n\nSi seguiste todos los pasos de como <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">cargar tu billetera de PAGO46</a> correctamente, <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">há transcurrido el tiempo estimado</a> y aún no ves tu carga en tu App de PAGO46. Por favor llena el siguiente formulario para realizar tu acreditación de forma manual\n\n \n\n \n\n¿Realizaste una transferencia desde una cuenta NO propia?\nRecuerde que para que su transferencia bancaria se haga efectiva automáticamente en su App de PAGO46 debe seguir <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">los pasos de carga correctamente</a>\n\nPara cargar una transferencia desde una cuenta NO propia, debe llenar el siguiente formulario.\n\nCargas desde cuentas NO propias pueden tardar hasta 72 horas en verse reflejadas en su aplicación de PAGO46.\n\nSi prefiere pedir la devolución de su dinero, haz click aquí",
+          "hrefoption": "/recarga/devolucion"
+        },
+        {
+          "id": 16,
+          "title": "Quiero la devolución de mi dinero",
+          "info": "Lamentamos que hayas tenido una mala experiencia con PAGO46.\n\nPara realizar la devolución de su dinero debe llenar el siguiente Formulario de devolución.\n\nRecuerda que la devolución puede tardar hasta 10 días hábiles en realizarse.",
+          "hrefoption": "/recarga/devolucion"
+        },
+        {
+          "id": 25,
+          "title": "¿Que puedo hacer hacer si realicé un pago y aun no descontaron mi deuda?",
+          "info": "Si ya realizaste el pago de tu deuda y aún no lo ves reflejado, no te preocupes, aquí te decimos todo lo que necesitas saber para que tu deuda sea conciliada.\n\nLo primero que necesitas sabes es que, según la empresa para la que trabajes podría haber mas o menos demora.\n\n✅  Rappi demora unos pocos minutos, máximo 1 hora.\n\n \n\n¿Que debo hacer si ya paso ese tiempo y aún veo la deuda?\n\nSi pagaste con un Socio46 o realizaste Auto Pago: Envíanos el correo con el que realizaste la generación del Código Qr o el correo de Socio46 con el que hiciste el auto pago. Si tienes el correo de transacción Exitosa también adjuntarlo para poder corroborar aún mas rápido tu pago.\n\nAquí te dejamos el link al formulario para que cargues tu reclamo.",
+          "hrefoption": "/pagos/que-hacer-pago"
+        },
+        {
+          "id": 26,
+          "title": "Encuentra aquí toda la información necesaria para pagar tu deuda",
+          "info": "Aquí te dejamos instructivos paso a paso de como pagar tu deuda según la App con la que trabajes.\nRappi\n➡️  <a href=\"https://pago46.com/como-pago-mi-deuda-de-rappi/\" rel=\"noopener noreferrer\" target=\"_blank\">Como Pagar mi deuda de Rappi</a>\n\n➡️ <a href=\"https://pago46.com/auto-paga-tu-deuda-de-rappi/\" rel=\"noopener noreferrer\" target=\"_blank\">Cómo Auto Pagar mi deuda de Rappi</a>\n\n",
+          "hrefoption": "/pagos/info-pagar-deuda"
+        },
+        {
+          "id": 40,
+          "title": "¿Cómo comienzo a ganar dinero con el app de PAGO46?",
+          "info": "Comenzar a ganar dinero con PAGO46, es muy simple. Primero asegurate de: \n\nEstar registrado como Socio46.\nTener tu cuenta activa correctamente.\nTener un RFC válido\nLo siguiente es Recargar tu cuenta de PAGO46. <a href=\"/recarga/como-transferencia\" rel=\"noopener noreferrer\">Aquí</a> te decimos como hacerlo. \n\nUna vez que tengas saldo en tu app, sólo debes estar online y podrás colectar efectivo de diferentes empresas.\n\nEs muy importante que revises nuestra sección “Tienda“ donde podrás ver todos los servicios y productos que puedes ofreces con tu app de PAGO46.\n\n¡Ten siempre tu celular contigo, tu app con saldo, y gana dinero!",
+          "hrefoption": "/socio46/ganar-dinero"
+        },
+        {
+          "id": 41,
+          "title": "¿Donde veo los productos y servicios que puedo ofrecer?",
+          "info": "Los Productos y Servicios los puedes encontrar en nuestra Tienda, dentro de la App de PAGO46. \n\nDebe ingresar a la App de PAGO46 con su correo electrónico de registro y contraseña. \nSeleccione el icono “Tienda” que se encuentra en la parte inferior de la pantalla. \nPodrá visualizar los siguientes productos: \n\nRecuerda que puedes realizar colección de dinero en efectivo utilizando el lector de Códigos QR que se encuentra en la parte superior derecha  de todas las pantallas de la App, podrá recibir pagos de: \n\nRappi\nTe sugerimos de todos modos que visites la <a href=\"/tienda\" rel=\"noopener noreferrer\">sección Tienda</a> para ver el detalle de cada uno.",
+          "hrefoption": "/socio46/mis-ofertas"
+        },
+        {
+          "id": 42,
+          "title": "¿Que diferencia hay entre Socio46 Delivery y Socio46 fijo?",
+          "info": "Todos los Socios46 pueden realizar todo tipo de transacciones, pero, cada tipo de Socio46 tiene ventajas.\n\nUn Socio46 fijo tiene una dirección donde las personas pueden acercarse para realizar transacciones. Las ventajas en este tipo de Socio46 son:\n\nPoder ofrecer más servicios sólo con tu celular, sin necesidad de otros elementos que muchas veces tienen costo extra.\nTener clientes recurrentes que sepan que servicios pueden ofrecer como la colección de deuda de Rappi.\nOfrecer a sus clientes todos los servicios de la sección de \"Tienda\" \nLa principal diferencia entre un Socio46 fijo \uD83C\uDFE0 y uno Delivery \uD83D\uDEB2  es que el Socio46 Delivery no necesita tener una dirección fija y en algunos casos cobrará una comisión por acercarse a la ubicación del usuario.\n\nSer Socio46 te permite tener una tienda online en tu celular y llegar a todos en cualquier momento y lugar.\n\n¿Como cambio mi modo de usuario?\nDesde la sección \"Perfil\" \uD83D\uDC64  podrás ver los 2 modos de usuario y elegir el modo en que quieres aparecer.\n\nRecuerda que puedes cambiarlo las veces que quieras, incluso en el mismo día.",
+          "hrefoption": "/socio46/diferencias-socios"
+        },
+        {
+          "id": 43,
+          "title": "¿Cómo retiro mis comisiones y cuáles son?",
+          "info": "Con PAGO46 no debes esperar fechas de corte o pago, obtienes tu ganancia en el momento con cada transacción que realices.\n\nRappi: Genera el 1% de comisión por cada monto que usted reciba.\nPaga Aquí: Genera el 1% de comisión por cada monto que usted reciba.\n \nEjemplo:\nRecibes $1000 de una recarga. Se te descontarán $970 de tu balance. La diferencia de los $30 que es tu ganancia la tienes en tu mano de inmediato.\uD83D\uDCB5",
+          "hrefoption": "/socio46/mis-comisiones"
+        },
+        {
+          "id": 44,
+          "title": "¿Donde puedo ver las transacciones y movimientos realizados?",
+          "info": "Ver todos los movimientos que realizaste como Socio46 es muy importante por si tienes dudas sobre alguna recarga o transacción realizada.\n\nTambién va a servirte para facturar, así que presta atención a este artículo Para poder ver todos los movimientos que haz realizado como Socio46.\n\nPaso a Paso:\n\nIngresa a tu app de PAGO46\nDirígete al ícono Billetera\nHaz click en Movimientos.\nSi quieres ver todas tus transacciones lo ves desde el sector \"Ventas\".\nSi quiere ver todas sus recargas puede hacerlo desde el sector \"Cargas\".\nOtra cosa que puedes ver es el detalle de tus ganancias.\n\nPara verlo, puedes realizar los mismos pasos, pero en lugar de tocar en Movimientos, debe hacer click en “Ganancias“\n\nAllí podrás filtrar por mes, semana o una fecha personalizada. \n\nEs muy importante que puedas ver todas estas secciones, ya que te servirán para realizar la facturación a PAGO46.",
+          "hrefoption": "/socio46/transacciones-y-movimientos"
+        },
+        {
+          "id": 45,
+          "title": "¿Como doy de baja mi cuenta de Socio46?",
+          "info": "Es una pena que quieras dejar de ser Socio46, pero si ya lo tienes decidido, te comentamos como hacer para darse de baja.\n\n1- Complete el formulario a continuación indicando :\n\nMotivo de baja:\nCorreo electrónico de Socio46:\n2- Debe llenar el siguiente Formulario de devolución\n\n\n3- Por último solo debe desinstalar la App de PAGO46 y listo con estos simples pasos su cuenta quedará desactivada.",
+          "hrefoption": "/socio46/dar-de-baja"
+        },
+        {
+          "id": 57,
+          "title": "Paga Aquí",
+          "info": "",
+          "hrefoption": "/tienda/paga-aqui"
+        }
+      ]
+    }
+  ]
+}

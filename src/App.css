@@ -1,3 +1,12 @@
+h1, h2, h3, h4, h5, a, p, li{
+  color: #011238;
+}
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
 .App {
   text-align: center;
 }
