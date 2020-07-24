@@ -1,11 +1,13 @@
-import React, {useState, useEffect, Fragment} from 'react'
+import React, {useState, useEffect} from 'react'
 import {useLocation} from 'react-router-dom'
+import {SwitchCountry} from "../../helper/SwitchFunctions";
 import Pagos from '../../assets/pagos.png'
 import Recarga from '../../assets/recarga-saldo.png'
 import Sobre from '../../assets/sobre-pago46.png'
 import Socio from '../../assets/socio.png'
 import Tienda from '../../assets/tienda.png'
 import {makeStyles} from "@material-ui/core/styles";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
     imageIcon: {
@@ -18,6 +20,14 @@ const useStyles = makeStyles((theme) => ({
     textTitle: {
         marginLeft: '10px',
         display: 'inline-block',
+    },
+    containerDiv: {
+        [theme.breakpoints.down(580)]: {
+            paddingLeft: 10
+        },
+        [theme.breakpoints.up(580)]: {
+            textAlign: 'center',
+        },
     }
 }));
 
@@ -26,17 +36,11 @@ const TitleSection = ({title, setTitle, data, country}) => {
 
     let location = useLocation()
 
-    const [imageIconUse, setImageIconUse] = useState('')
+    const [imageIconUse, setImageIconUse] = useState(null)
+
+    const url = location.pathname
 
     useEffect(()=>{
-        if(location.pathname === '/' && country){
-            setTitle({title: `Atencion al cliente ${country}`})
-        }
-    }, [location, country])
-
-    useEffect(()=>{
-        knowTitle()
-
         const nameImage = title.imageIcon
         switch(nameImage){
             case 'Pagos':
@@ -60,49 +64,44 @@ const TitleSection = ({title, setTitle, data, country}) => {
         }
     }, [title, location])
 
+    useEffect(()=>{
+        knowTitle()
+    }, [data, location])
+
     const knowTitle = () => {
+        let positionArrayCountry = SwitchCountry(country)
 
-        if(data){
-            if(location.pathname.indexOf('/') === location.pathname.lastIndexOf('/')){
-                data.categories.forEach(info=>{
-                    if(info.hrefoption === location.pathname){
-                        setTitle(info)
-                    }
-                })
-            }
-            else if(location.pathname.indexOf('/') !== location.pathname.lastIndexOf('/')){
-                for(let pais of data.information){
-                    if(pais.country === country){
-                        for(let contentInfo of pais.content){
-                            if(contentInfo.hrefoption === location.pathname){
-                                setTitle(contentInfo)
-                            }
-                        }
-                    } else {
-                        for(let contentInfo of pais.content){
-                            if(contentInfo.hrefoption === location.pathname){
-                                setTitle(contentInfo)
-                            }
-                        }
-                    }
-                }
-            }
+        if(data && url === '/' && country){
+            setTitle({title: `Atención al cliente ${country}`})
         }
+
+        if(data && url.indexOf('/') === url.lastIndexOf('/') && url != '/') {
+            (setTitle((data.categories.filter(info => info.hrefoption === url)[0])))
+        }
+
+        if(data && url.indexOf('/') !== url.lastIndexOf('/')){
+            (setTitle(data.information[positionArrayCountry].content.filter( info => info.hrefoption === url)[0]))
+        }
+
     }
-    knowTitle()
-
-
 
     return(
-        <Fragment>
+        <div className={classes.containerDiv}>
             {imageIconUse
-                ? <img src={imageIconUse} className={classes.imageIcon}/>
+                ? <img src={imageIconUse} alt="img" className={classes.imageIcon}/>
                 : null
             }
             <div className={classes.textTitle}><h2>{title.title}</h2></div>
-        </Fragment>
+        </div>
 
     )
+}
+
+TitleSection.propTypes = {
+    title: PropTypes.object.isRequired,
+    setTitle: PropTypes.func.isRequired,
+    data: PropTypes.object.isRequired,
+    country: PropTypes.string.isRequired
 }
 
 export default TitleSection

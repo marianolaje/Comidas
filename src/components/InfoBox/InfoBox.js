@@ -1,10 +1,12 @@
 import React, {useEffect, useState} from 'react'
+import {SwitchCountry} from '../../helper/SwitchFunctions'
 import {useLocation} from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import {ThemeProvider} from "@material-ui/styles";
 import Typography from "@material-ui/core/Typography";
 import OpinionButton from "../OpinionButton/OpinionButton";
+import PropTypes from 'prop-types'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -29,8 +31,14 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: '300px'
     },
     videos: {
-        maxWidth: '315px',
-        maxHeight: '560px',
+        [theme.breakpoints.down(580)]: {
+            maxWidth: '315px',
+        },
+        [theme.breakpoints.up(580)]: {
+            maxWidth: '760px',
+            height: '400px',
+        },
+
         marginTop: 30
     }
 }));
@@ -52,6 +60,7 @@ const theme = createMuiTheme({
 
 const InfoBox = ({data, country}) => {
     const classes = useStyles();
+    console.log(data)
 
     const [infoState, setInfoState] = useState('')
     const [paragraph, setParagraph] = useState('')
@@ -76,32 +85,16 @@ const InfoBox = ({data, country}) => {
         }
     }, [data, location, paragraph])
 
+    //obtain the JSON information
     const obtainInfo = () => {
         const url = location.pathname;
-        let positionArrayCountry
-        if(country === 'Argentina'){
-            positionArrayCountry = 1
-        } else if(country === 'Chile'){
-            positionArrayCountry = 2
-        } else if(country === 'Mexico'){
-            positionArrayCountry = 3
-        } else {
-            positionArrayCountry = 0
-        }
-        for(let contentInfo of data.information[positionArrayCountry].content){
-            if(contentInfo.hrefoption === url){
-                setInfoState(contentInfo)
-            }
-        }
-        if(infoState === ''){
-            for(let contentInfo of data.information[0].content){
-                if(contentInfo.hrefoption === url){
-                    setInfoState(contentInfo)
-                }
-            }
-        }
+        let positionArrayCountry = SwitchCountry(country)
+
+        const result = data.information[positionArrayCountry].content.filter( info => info.hrefoption === url)
+        setInfoState(result[0])
     }
 
+    //split the JSON, cutting every <a> element
     const modifyInfo = () => {
         if(paragraph){
             let cuantitySymbol = obtainCuantitySymbols()
@@ -118,7 +111,6 @@ const InfoBox = ({data, country}) => {
                     modifyText = obtainText(modifyText)
                     modifyText = obtainElement(modifyText)
                 } else {
-                    console.log(modifyText)
                     setArrayTexts(arrayTexts => [...arrayTexts, modifyText])
                     break
                 }
@@ -126,6 +118,7 @@ const InfoBox = ({data, country}) => {
         }
     }
 
+    //obtain the number of <a> tags in the JSON
     const obtainCuantitySymbols = () => {
         let cuantitySymbol = 0
         let positionLastSimbol = 1
@@ -137,21 +130,23 @@ const InfoBox = ({data, country}) => {
         return cuantitySymbol
     }
 
+    //obtain an array only with the text of the JSON (not inclusive the inside of an <a> element)
     const obtainText = (modifyText) => {
         let aElementOpen = modifyText.indexOf('<a')
         let onlyText = modifyText.substring(0, aElementOpen)
         setArrayTexts(arrayTexts => [...arrayTexts, onlyText])
-        let result = modifyText.replace(`${onlyText}`, '')
-        return result
+        let resultText = modifyText.replace(`${onlyText}`, '')
+        return resultText
     }
 
+    //obtain an array of elements <a>, with the props and inside text
     const obtainElement = (modifyText) => {
         let aElementOpen = modifyText.indexOf('<a')
         let aElementClose = modifyText.indexOf('</a>')
         let aElement = modifyText.substring(aElementOpen, aElementClose) + '</a>'
         setArrayElements(arrayElements => [...arrayElements, aElement])
-        let result = modifyText.replace(`${aElement}`, '')
-        return result
+        let resultElement = modifyText.replace(`${aElement}`, '')
+        return resultElement
     }
 
 
@@ -161,6 +156,7 @@ const InfoBox = ({data, country}) => {
         }
     },[arrayElements, paragraph, orderParagraph])
 
+    //concat in order the information of text and <a> elements
     const orderInfo = () => {
         if(paragraph && arrayTexts.length!=0 && boolControl){
             setBoolControl(false)
@@ -197,6 +193,7 @@ const InfoBox = ({data, country}) => {
             <Typography variant="body1" className={classes.root}>
                 {infoState.img1
                     ? (<img src={require(`../../assets/${infoState.img1}`)}
+                            alt="img"
                              width="100%"
                              className={classes.images}
                     />)
@@ -204,6 +201,7 @@ const InfoBox = ({data, country}) => {
                 }
                 {infoState.img2
                     ? (<img src={require(`../../assets/${infoState.img2}`)}
+                            alt="img"
                             width="100%"
                             className={classes.images}
                     />)
@@ -211,6 +209,7 @@ const InfoBox = ({data, country}) => {
                 }
                 {infoState.img3
                     ? (<img src={require(`../../assets/${infoState.img3}`)}
+                            alt="img"
                             width="100%"
                             className={classes.images}
                     />)
@@ -249,6 +248,13 @@ const InfoBox = ({data, country}) => {
         </ThemeProvider >
 
     )
+}
+
+InfoBox.propTypes = {
+    /*setInfoBool: PropTypes.bool.isRequired*/
+    data: PropTypes.object.isRequired,
+    country: PropTypes.string.isRequired,
+
 }
 
 export default InfoBox

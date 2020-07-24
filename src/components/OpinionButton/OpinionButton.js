@@ -1,6 +1,6 @@
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
+import React, {useState} from 'react'
 import Button from '@material-ui/core/Button';
+import {makeStyles} from '@material-ui/core/styles';
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import Typography from "@material-ui/core/Typography";
 
@@ -15,18 +15,20 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: 10,
         marginBottom: 20
     },
-    spreadButtons: {
-        marginRight: 40,
+    answerButton: {
+        margin: "0 20px",
+        maxHeight: 20,
+        fontSize: 10,
     },
-    marginTop: {
-        marginTop: 10
-    },
-    buttonSize: {
-        marginTop: 10,
-        '& button': {
-            maxHeight: 20,
-            fontSize: 10,
+    selectedButton: {
+        color: "white",
+        backgroundColor: "#28C339",
+        "&:active, &:hover":{
+            backgroundColor: "#28C339",
         }
+    },
+    buttonContainer: {
+        margin: "10px 0",
     }
 }));
 
@@ -45,60 +47,56 @@ const theme = createMuiTheme({
     },
 });
 
+const ANSWERS = {
+    YES: "YES",
+    NO: "NO",
+}
 
+const noop = () => false;
 
-const OpinionButton = () => {
+const OpinionButton = ({ onSelect = noop }) => {
     const classes = useStyles();
+    const [selected, setSelected] = useState(null);
 
-    const changeBoolButtons = (buttonId, otherButtonId) => {
-        const button = document.getElementById(buttonId).style
-        const otherButton = document.getElementById(otherButtonId).style
+    const onClickButton = answer => () => {
+        if(selected && selected !== answer) return;
 
-        if(button.color === 'white'){
-            button.color = '#28C339'
-            button.backgroundColor = 'transparent'
-        } else {
-            button.color = 'white'
-            button.backgroundColor = '#28C339'
-        }
-        if(otherButton.color === 'white'){
-            button.color = '#28C339'
-            button.backgroundColor = 'transparent'
-        }
+        const finalAnswer = selected === answer ? null : answer;
+        onSelect(finalAnswer);
+        setSelected(finalAnswer)
     }
 
-    return(
-            <div className={classes.alignCenter}>
-                <Typography variant="body2" className={classes.marginTop}>
-                    ¿Fue útil este artículo?
-                </Typography>
+    const selectedClassName = `${classes.answerButton} ${classes.selectedButton}`
+    return (
+        <div className={classes.alignCenter}>
+            <Typography variant="body2" className={classes.marginTop} theme={theme}>
+                ¿Fue útil este artículo?
+            </Typography>
 
-                <Typography variant="body2" className={classes.marginTop}>
-                    <div className={classes.buttonSize}>
-                        <Button
-                            variant="outlined"
-                            color="primary"
-                            className={classes.spreadButtons}
-                            id='buttonYes'
-                            onClick={()=>changeBoolButtons('buttonYes', 'buttonNo')}
-                        >Si
-                        </Button>
-                        <Button
-                            variant="outlined"
-                            color="primary"
-                            id='buttonNo'
-                            onClick={()=>changeBoolButtons('buttonNo', 'buttonYes')}
-                        >No
-                        </Button>
-                    </div>
-                </Typography>
-
-                <Typography variant="body2" className={classes.marginTop}>
-                    ¡Muchas gracias!
-                </Typography>
+            <div className={classes.buttonContainer}>
+                <Button
+                    color="primary"
+                    className={selected === ANSWERS.YES ? selectedClassName : classes.answerButton}
+                    variant="outlined"
+                    onClick={onClickButton(ANSWERS.YES)}
+                > Si
+                </Button>
+                <Button
+                    variant="outlined"
+                    color="primary"
+                    className={selected === ANSWERS.NO ? selectedClassName : classes.answerButton}
+                    onClick={onClickButton(ANSWERS.NO)}
+                >No
+                </Button>
             </div>
+
+            <Typography variant="body2" className={classes.marginTop} theme={theme}>
+                ¡Muchas gracias!
+            </Typography>
+        </div>
 
     )
 }
+
 
 export default OpinionButton

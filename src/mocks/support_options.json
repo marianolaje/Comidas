@@ -326,10 +326,10 @@
   ],
   "information": [
     {
-      "country" : "General",
+      "country" : "Argentina",
       "content" : [
         {
-          "id": 99,
+          "id": 90,
           "title": "Primeros pasos, registro e información para comenzar a utilizar PAGO46",
           "info": "¡Bienvenido a PAGO46!\nSeguramente quieres ser Socio46 o saber como seguir luego de registrarte. Tranquilo, aquí te lo contamos todo...\n\nPaso a paso para ser Socio46\n\uD83D\uDCF1 Descarga a tu celular la app de PAGO46 \n\n<a href=\"https://apps.apple.com/cl/app/pago46/id1372503177\" rel=\"noopener noreferrer\" target=\"_blank\">App Store</a><a href=\"https://play.google.com/store/apps/details?id=com.fortysixdegrees.storeagent&hl=es\" rel=\"noopener noreferrer\" target=\"_blank\">Google Play</a>\n\n✅  Completa el formulario de Registro. \n\n⌛️ Aguarda a que tus datos sean verificados. Si ingresas a tu app verás esta imagen, esto puede demorar hasta 24 horas. \n\n❗️ Revisa tu correo, si hemos tenido problemas con tus datos o imagen de documento, estaremos poniéndonos en contacto.\uD83E\uDD14 ¿Pasaron más de 24 horas? Indícanos aquí tu correo.\n\uD83D\uDCE9  Verifica el correo con el que te registraste a PAGO46, te llegará un correo para que puedas hacerlo. \n\n\uD83D\uDE31 ¿No te llegó el correo de Registro? Indícanos tu correo.\n\uD83C\uDF89 Si ya seguiste todos estos pasos estás listo para hacer tu primera recarga y comenzar a ganar dineo con PAGO46. Aquí te contamos todo",
           "hrefoption": "/sobre/primeros-pasos",
@@ -337,13 +337,13 @@
 
         },
         {
-          "id": 0,
+          "id": 91,
           "title": "¿Que es PAGO46?",
           "info": "PAGO46 es una plataforma de pagos en efectivo para compras on line, sin necesidad de tener tarjeta de crédito o cuenta bancaria.\n\n Formamos una red colaborativa entre Socios46, Comercios y Consumidores, donde cada uno de nuestros participantes sale beneficiado.\n\nLos Consumidores pueden acceder a productos digitales pagando en efectivo a un Socio46, quien recibe un ingreso adicional por recibir ese pago.\n\nLos Socios46 simplemente con su celular y nuestra APP están siempre disponibles, en cualquier momento y lugar.",
           "hrefoption": "/sobre/que-es-pago46"
         },
         {
-          "id": 1,
+          "id": 92,
           "title": "¿Como funciona PAGO46?",
           "info": "Compra Online\nGenera un código QR con PAGO46\n\nAl elegir PAGO46 como método de pago, se generará un código QR y se abrirá un mapa indicando el SOCIO46 fijo mas cercano a él, o podrá elegir que un SOCIO46 se acerque donde esté a cobrarle en efectivo.\n\n\nTransacción offline\nPaga en efectivo con el SOCIO46 elegido.\n\nCuando el SOCIO46 escanee el código QR del consumidor, se realiza el pago en efectivo.\n\n¡Listo!\nRecibe tu comprobante.\n\nAl finalizar la transacción ambos recibirán un comprobante por correo y listo.",
           "hrefoption": "/sobre/como-funciona-pago46",
@@ -352,21 +352,17 @@
           "img3": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen3-v2.jpg"
         },
         {
-          "id": 2,
+          "id": 93,
           "title": "¿Donde está disponible PAGO46?",
           "info": "Desde PAGO46 estamos trabajando siempre para estar en nuevos lugares y brindar nuevas oportunidades a todos aquellos que deseen ganar dinero sólo con su Celular.\n\nPor el momento estamos operando en Chile y Argentina, muy próximos a anunciar nuevos paises.",
           "hrefoption": "/sobre/donde-esta-disponible-pago46"
         },
         {
-          "id": 3,
+          "id": 94,
           "title": "Términos y Condiciones",
           "info": "Siempre que tengas una duda sobre nuestros términos y condiciones puedes <a href=\"https://pago46.com/terminos-y-condiciones/\" rel=\"noopener noreferrer\" target=\"_blank\">consultar este link</a>\n\nEs muy importante que los leas para estar siempre informado sobre que si y que no se puede hacer con la app de PAGO46.",
           "hrefoption": "/sobre/terminos-y-condiciones"
-        }
-      ]
-    },{
-      "country" : "Argentina",
-      "content" : [
+        },
         {
           "id": 4,
           "title": "¿Cómo hago una transferencia a PAGO46?",
@@ -494,6 +490,41 @@
       "country" : "Chile",
       "content" : [
         {
+          "id": 95,
+          "title": "Primeros pasos, registro e información para comenzar a utilizar PAGO46",
+          "info": "¡Bienvenido a PAGO46!\nSeguramente quieres ser Socio46 o saber como seguir luego de registrarte. Tranquilo, aquí te lo contamos todo...\n\nPaso a paso para ser Socio46\n\uD83D\uDCF1 Descarga a tu celular la app de PAGO46 \n\n<a href=\"https://apps.apple.com/cl/app/pago46/id1372503177\" rel=\"noopener noreferrer\" target=\"_blank\">App Store</a><a href=\"https://play.google.com/store/apps/details?id=com.fortysixdegrees.storeagent&hl=es\" rel=\"noopener noreferrer\" target=\"_blank\">Google Play</a>\n\n✅  Completa el formulario de Registro. \n\n⌛️ Aguarda a que tus datos sean verificados. Si ingresas a tu app verás esta imagen, esto puede demorar hasta 24 horas. \n\n❗️ Revisa tu correo, si hemos tenido problemas con tus datos o imagen de documento, estaremos poniéndonos en contacto.\uD83E\uDD14 ¿Pasaron más de 24 horas? Indícanos aquí tu correo.\n\uD83D\uDCE9  Verifica el correo con el que te registraste a PAGO46, te llegará un correo para que puedas hacerlo. \n\n\uD83D\uDE31 ¿No te llegó el correo de Registro? Indícanos tu correo.\n\uD83C\uDF89 Si ya seguiste todos estos pasos estás listo para hacer tu primera recarga y comenzar a ganar dineo con PAGO46. Aquí te contamos todo",
+          "hrefoption": "/sobre/primeros-pasos",
+          "video1": "https://www.youtube.com/embed/c8sx5LUDkS0"
+
+        },
+        {
+          "id": 96,
+          "title": "¿Que es PAGO46?",
+          "info": "PAGO46 es una plataforma de pagos en efectivo para compras on line, sin necesidad de tener tarjeta de crédito o cuenta bancaria.\n\n Formamos una red colaborativa entre Socios46, Comercios y Consumidores, donde cada uno de nuestros participantes sale beneficiado.\n\nLos Consumidores pueden acceder a productos digitales pagando en efectivo a un Socio46, quien recibe un ingreso adicional por recibir ese pago.\n\nLos Socios46 simplemente con su celular y nuestra APP están siempre disponibles, en cualquier momento y lugar.",
+          "hrefoption": "/sobre/que-es-pago46"
+        },
+        {
+          "id": 97,
+          "title": "¿Como funciona PAGO46?",
+          "info": "Compra Online\nGenera un código QR con PAGO46\n\nAl elegir PAGO46 como método de pago, se generará un código QR y se abrirá un mapa indicando el SOCIO46 fijo mas cercano a él, o podrá elegir que un SOCIO46 se acerque donde esté a cobrarle en efectivo.\n\n\nTransacción offline\nPaga en efectivo con el SOCIO46 elegido.\n\nCuando el SOCIO46 escanee el código QR del consumidor, se realiza el pago en efectivo.\n\n¡Listo!\nRecibe tu comprobante.\n\nAl finalizar la transacción ambos recibirán un comprobante por correo y listo.",
+          "hrefoption": "/sobre/como-funciona-pago46",
+          "img1": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen1-v2.jpg",
+          "img2": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen2-v2.jpg",
+          "img3": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen3-v2.jpg"
+        },
+        {
+          "id": 98,
+          "title": "¿Donde está disponible PAGO46?",
+          "info": "Desde PAGO46 estamos trabajando siempre para estar en nuevos lugares y brindar nuevas oportunidades a todos aquellos que deseen ganar dinero sólo con su Celular.\n\nPor el momento estamos operando en Chile y Argentina, muy próximos a anunciar nuevos paises.",
+          "hrefoption": "/sobre/donde-esta-disponible-pago46"
+        },
+        {
+          "id": 99,
+          "title": "Términos y Condiciones",
+          "info": "Siempre que tengas una duda sobre nuestros términos y condiciones puedes <a href=\"https://pago46.com/terminos-y-condiciones/\" rel=\"noopener noreferrer\" target=\"_blank\">consultar este link</a>\n\nEs muy importante que los leas para estar siempre informado sobre que si y que no se puede hacer con la app de PAGO46.",
+          "hrefoption": "/sobre/terminos-y-condiciones"
+        },
+        {
           "id": 8,
           "title": "¿Cómo hago una transferencia para cargar mi App de PAGO46?",
           "info": "Cargar tu App de Pago46 con una transferencia bancaria es muy fácil sólo debes:\n\nIngresar a tu App de PAGO46 e ir a la sección 'Billetera'.\n\nTocar en 'Cargar Crédito'.\n\nVeras los pasos que debes seguir para realizar la transferencia.,\n\nIngresar el Monto Exacto a transferir (ejemplo:$1.000 pesos).,,,\n\nSeleccionar la opción 'Transferencia Bancaria'.,,\n\nRealizar la transferencia a la cuenta presentada y tocar en 'Generar Carga de Saldo'.,,\n\n\n\nRecuerda siempre crear el Ticket de carga antes de realizar la transferencia, las recargas pueden demorar hasta 8 horas para verse en tu App y debe cumplir con lo siguiente:,,,,\n\nEl monto transferido sea igual al colocado en el Ticket de carga.,,\n\nEl RUT del propietario de la cuenta bancaria debe coincidir con el RUT registrado en tu App de PAGO46.",
@@ -605,6 +636,41 @@
     },{
       "country" : "Mexico",
       "content" : [
+        {
+          "id": 85,
+          "title": "Primeros pasos, registro e información para comenzar a utilizar PAGO46",
+          "info": "¡Bienvenido a PAGO46!\nSeguramente quieres ser Socio46 o saber como seguir luego de registrarte. Tranquilo, aquí te lo contamos todo...\n\nPaso a paso para ser Socio46\n\uD83D\uDCF1 Descarga a tu celular la app de PAGO46 \n\n<a href=\"https://apps.apple.com/cl/app/pago46/id1372503177\" rel=\"noopener noreferrer\" target=\"_blank\">App Store</a><a href=\"https://play.google.com/store/apps/details?id=com.fortysixdegrees.storeagent&hl=es\" rel=\"noopener noreferrer\" target=\"_blank\">Google Play</a>\n\n✅  Completa el formulario de Registro. \n\n⌛️ Aguarda a que tus datos sean verificados. Si ingresas a tu app verás esta imagen, esto puede demorar hasta 24 horas. \n\n❗️ Revisa tu correo, si hemos tenido problemas con tus datos o imagen de documento, estaremos poniéndonos en contacto.\uD83E\uDD14 ¿Pasaron más de 24 horas? Indícanos aquí tu correo.\n\uD83D\uDCE9  Verifica el correo con el que te registraste a PAGO46, te llegará un correo para que puedas hacerlo. \n\n\uD83D\uDE31 ¿No te llegó el correo de Registro? Indícanos tu correo.\n\uD83C\uDF89 Si ya seguiste todos estos pasos estás listo para hacer tu primera recarga y comenzar a ganar dineo con PAGO46. Aquí te contamos todo",
+          "hrefoption": "/sobre/primeros-pasos",
+          "video1": "https://www.youtube.com/embed/c8sx5LUDkS0"
+
+        },
+        {
+          "id": 86,
+          "title": "¿Que es PAGO46?",
+          "info": "PAGO46 es una plataforma de pagos en efectivo para compras on line, sin necesidad de tener tarjeta de crédito o cuenta bancaria.\n\n Formamos una red colaborativa entre Socios46, Comercios y Consumidores, donde cada uno de nuestros participantes sale beneficiado.\n\nLos Consumidores pueden acceder a productos digitales pagando en efectivo a un Socio46, quien recibe un ingreso adicional por recibir ese pago.\n\nLos Socios46 simplemente con su celular y nuestra APP están siempre disponibles, en cualquier momento y lugar.",
+          "hrefoption": "/sobre/que-es-pago46"
+        },
+        {
+          "id": 87,
+          "title": "¿Como funciona PAGO46?",
+          "info": "Compra Online\nGenera un código QR con PAGO46\n\nAl elegir PAGO46 como método de pago, se generará un código QR y se abrirá un mapa indicando el SOCIO46 fijo mas cercano a él, o podrá elegir que un SOCIO46 se acerque donde esté a cobrarle en efectivo.\n\n\nTransacción offline\nPaga en efectivo con el SOCIO46 elegido.\n\nCuando el SOCIO46 escanee el código QR del consumidor, se realiza el pago en efectivo.\n\n¡Listo!\nRecibe tu comprobante.\n\nAl finalizar la transacción ambos recibirán un comprobante por correo y listo.",
+          "hrefoption": "/sobre/como-funciona-pago46",
+          "img1": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen1-v2.jpg",
+          "img2": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen2-v2.jpg",
+          "img3": "ayuda-sobrePAGO46-comofuncionaPAGO46-imagen3-v2.jpg"
+        },
+        {
+          "id": 88,
+          "title": "¿Donde está disponible PAGO46?",
+          "info": "Desde PAGO46 estamos trabajando siempre para estar en nuevos lugares y brindar nuevas oportunidades a todos aquellos que deseen ganar dinero sólo con su Celular.\n\nPor el momento estamos operando en Chile y Argentina, muy próximos a anunciar nuevos paises.",
+          "hrefoption": "/sobre/donde-esta-disponible-pago46"
+        },
+        {
+          "id": 89,
+          "title": "Términos y Condiciones",
+          "info": "Siempre que tengas una duda sobre nuestros términos y condiciones puedes <a href=\"https://pago46.com/terminos-y-condiciones/\" rel=\"noopener noreferrer\" target=\"_blank\">consultar este link</a>\n\nEs muy importante que los leas para estar siempre informado sobre que si y que no se puede hacer con la app de PAGO46.",
+          "hrefoption": "/sobre/terminos-y-condiciones"
+        },
         {
           "id": 13,
           "title": "¿Cómo hago una transferencia para cargar mi App de PAGO46?",

@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom'
 import MainTitleBoxes from "./components/MainTitleBoxes/MainTitleBoxes.js";
 import './App.css';
-import mockData from './moks/support_options.json'
+import mockData from './mocks/support_options.json'
 import HeaderComp from "./components/HeaderComp/HeaderComp";
 import InfoBox from "./components/InfoBox/InfoBox";
 import TitleSection from "./components/TitleSection/TitleSection";
@@ -17,7 +17,6 @@ import ErrorIcon            from '@material-ui/icons/Error';
 import green from '@material-ui/core/colors/green';
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import {createStyles} from "@material-ui/core";
-import Form from "./components/Form/Form";
 
 const useStyles = makeStyles(theme => createStyles({
     responseContainer: {
@@ -60,7 +59,7 @@ const useStyles = makeStyles(theme => createStyles({
     }
 }));
 
-function App() {
+function WinterSoldier() {
     const {
         loadingContainer,
         responseContainer,
@@ -69,13 +68,13 @@ function App() {
         text
     } = useStyles();
 
-    const [data, setData] = useState(null)
+    const [data, setData] = useState('')
     const [infoBool, setInfoBool] = useState(false)
     const [title, setTitle] = useState({})
-    const [country, setCountry] = useState('')
+    const [country, setCountry] = useState("")
     const [error, setError] = useState(false)
     const [errorCode, setErrorCode] = useState(0)
-    const [errorMessage, setErrorMessage] = useState('')
+    const [errorMessage, setErrorMessage] = useState("")
     const [loading, setLoading] = useState(true)
 
     useEffect(()=>{
@@ -169,4 +168,4 @@ function App() {
     )*/
 }
 
-export default App;
+export default WinterSoldier;

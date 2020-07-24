@@ -14,6 +14,7 @@ import {makeStyles} from "@material-ui/core/styles";
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import {ThemeProvider} from "@material-ui/styles";
 import Typography from "@material-ui/core/Typography";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
     imageIcon: {
@@ -47,9 +48,10 @@ function ListItemLink(props) {
 const MainTitleBox = ({infoRow, setTitle}) => {
     const classes = useStyles();
 
-    const [imageIconUse, setImageIconUse] = useState('')
+    const [imageIconUse, setImageIconUse] = useState(null)
 
     const history = useHistory()
+    console.log(history)
 
     const setTitleToView = () => {
         setTitle(infoRow)
@@ -59,9 +61,9 @@ const MainTitleBox = ({infoRow, setTitle}) => {
         history.push(infoRow.hrefoption)
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         const nameImage = infoRow.imageIcon
-        switch(nameImage){
+        switch (nameImage) {
             case 'Pagos':
                 setImageIconUse(Pagos)
                 break;
@@ -91,14 +93,14 @@ const MainTitleBox = ({infoRow, setTitle}) => {
                     onClick={changeUrl}
                     className={classes.color}
                 >
-                    {imageIconUse
-                        ?   <ListItemIcon>
-                                <img
-                                    src={imageIconUse}
-                                    className={classes.imageIcon}
-                                />
-                            </ListItemIcon>
-                        :   null
+                    {imageIconUse &&
+                    (<ListItemIcon>
+                        <img
+                            src={imageIconUse}
+                            className={classes.imageIcon}
+                            alt="iconos"
+                        />
+                    </ListItemIcon>)
                     }
                     <Typography>
                         <ListItemText
@@ -111,6 +113,11 @@ const MainTitleBox = ({infoRow, setTitle}) => {
             </List>
         </ThemeProvider>
     );
+}
+
+MainTitleBox.propTypes = {
+    setTitle: PropTypes.func.isRequired,
+    infoRow: PropTypes.object.isRequired,
 }
 
 export default MainTitleBox

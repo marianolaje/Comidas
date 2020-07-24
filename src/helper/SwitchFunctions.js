@@ -34,3 +34,22 @@ export const SwitchTitles = ({url, setInfo, data, country}) => {
             break;
     }
 }
+
+export const SwitchCountry = (country) => {
+    let positionArrayCountry
+    switch(country) {
+        case 'Argentina':
+            positionArrayCountry = 0
+            break;
+        case 'Chile':
+            positionArrayCountry = 1
+            break;
+        case 'Mexico':
+            positionArrayCountry = 2
+            break;
+        default:
+            positionArrayCountry = 0
+            break;
+    }
+    return positionArrayCountry
+}

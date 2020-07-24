@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
-import {useLocation, useHistory} from 'react-router-dom'
-import { render } from '@testing-library/react';
+import {render, cleanup} from '@testing-library/react';
 import TitleSection from './TitleSection'
-import App from '../../App'
+
+
+afterEach(cleanup)
 
 jest.mock('react-router-dom', () => ({
     useLocation: jest.fn().mockReturnValue({
@@ -15,27 +15,23 @@ jest.mock('react-router-dom', () => ({
     }),
 }));
 
-test('nombre test', () => {
-    expect(true).toBeTruthy();
+
+test('nombre home Argentina', async () => {
+
+    const titleObject = {
+        title: 'Atención al cliente Argentina'
+    }
+    const setTitle = () => {
+        return titleObject
+    }
+    const mockJson = {
+        title: 'Pago46'
+    }
+    const country = 'Argentina'
+
+    const { getByText } = render(<TitleSection title={titleObject} setTitle={setTitle} data={mockJson} country={country}/>)
+
+    getByText(`Atención al cliente ${country}`)
+
 })
 
-/*
-test('nombre test', () => {
-    expect(App.loading).not.toBeTruthy();
-})
-*/
-
-/*
-test('verify title', () => {
-    const component = shallow(<App params={{ title: 'Atencion al cliente ' }} />)
-
-    const root = document.createElement("div")
-    ReactDOM.render(<TitleSection/>, root)
-
-    const location = useLocation()
-
-    root.country = 'Argentina'
-
-    expect(root.querySelector("h1").textContent).toBe("Atencion al cliente Argentina")
-})
-*/

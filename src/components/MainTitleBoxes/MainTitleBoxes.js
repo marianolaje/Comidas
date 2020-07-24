@@ -3,6 +3,7 @@ import {useLocation} from 'react-router-dom'
 import {SwitchTitles} from '../../helper/SwitchFunctions'
 import { makeStyles } from '@material-ui/core/styles';
 import MainTitleBox from "../MainTitleBox/MainTitleBox";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -21,31 +22,42 @@ const MainTitleBoxes = ({data, setInfoBool, setTitle, country}) => {
     let location = useLocation()
 
     useEffect(()=>{
-        if(data){
-            const url = location.pathname;
+        const url = location.pathname;
+        if(data) {
             SwitchTitles({url, setInfo, data, country})
         }
-        if(location.pathname === '/'){
-            setInfoBool(false)
-        }
-        if(location.pathname.indexOf('/') !== location.pathname.lastIndexOf('/')){
+        if(url.indexOf('/') !== url.lastIndexOf('/')) {
             setInfoBool(true)
-        }else{
+        } else {
             setInfoBool(false)
         }
     }, [data, location])
 
-    return (
-        <div className={classes.root}>
-            {info && info.map(infoRow => (
+    const boxComponent = () => {
+        const resultInfo = info ?
+            info.map((infoRow) => (
                 <MainTitleBox
                     key = {infoRow.id}
                     infoRow = {infoRow}
                     setTitle = {setTitle}
                 />
-            ))}
+            ))
+            : null
+        return resultInfo
+    }
+
+    return (
+        <div className={classes.root}>
+            {boxComponent()}
         </div>
     );
+}
+
+MainTitleBoxes.propTypes = {
+    data: PropTypes.object.isRequired,
+    setInfoBool: PropTypes.func.isRequired,
+    setTitle: PropTypes.func.isRequired,
+    country: PropTypes.string.isRequired
 }
 
 export default MainTitleBoxes

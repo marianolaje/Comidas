@@ -6,6 +6,8 @@ import Arrow from '../../assets/arrow.png'
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import {ThemeProvider} from "@material-ui/styles";
 import Typography from "@material-ui/core/Typography";
+import PropTypes from 'prop-types'
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -52,7 +54,7 @@ const HeaderComp = ({setInfoBool}) => {
                        className={classes.root}
                        onClick={goBackButton}
                 >
-                    <img src={Arrow}/>
+                    <img src={Arrow} alt="Volver"/>
                     <Typography variant="h6">
                         Ayuda
                     </Typography>
@@ -61,6 +63,10 @@ const HeaderComp = ({setInfoBool}) => {
             </header>
         </ThemeProvider>
     )
+}
+
+HeaderComp.propTypes = {
+    setInfoBool: PropTypes.func.isRequired
 }
 
 export default HeaderComp
